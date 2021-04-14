@@ -1,0 +1,7289 @@
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+(print(v);print(a))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+(print(v);print(a))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+print(v)
+print(a)
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+print(v)
+print(a)
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+print(v)
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+print(v)
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+(v=32;(print(v);print(a)))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+(v=32;(print(v);print(a)))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+v=32
+(print(v);print(a))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+v=32
+(print(v);print(a))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+v=32
+print(v)
+print(a)
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+v=32
+print(v)
+print(a)
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+v=32
+print(v)
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+v=32
+print(v)
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+v=32
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+v=32
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+(print(v);print(a))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+(print(v);print(a))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+print(v)
+print(a)
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+print(v)
+print(a)
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+print(v)
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+print(v)
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+(v=32;(print(v);print(a)))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+v=10
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+(v=32;(print(v);print(a)))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+v=32
+(print(v);print(a))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+Type Ref(int) a
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+v=32
+(print(v);print(a))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+v=32
+print(v)
+print(a)
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+Type int v
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+v=32
+print(v)
+print(a)
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+v=32
+print(v)
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+v=32
+print(v)
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+v=32
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+v=32
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:32
+Out: 10
+32
+
+FileTable: 
+
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+32
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+32
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+32
+30
+
+FileTable: 
+
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+32
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+32
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+32
+30
+
+FileTable: 
+
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+32
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+32
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+32
+30
+
+FileTable: 
+
+ExeStack: 
+(Type int v;(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) a;(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+Type Ref(int) a
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=10;(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+v=10
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=22};(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+HeapAllocStmt{varName='a', expression=22}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))));(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+fork((HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a)))))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='a', expression=30};(v=32;(print(v);print(a))))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+HeapWriteStmt{varName='a', expression=30}
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+(v=32;(print(v);print(a)))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+v=32
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:10
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+(print(v);print(a))
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+print(a)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+32
+
+FileTable: 
+
+ExeStack: 
+print(a)
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+32
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=1, locationType=int}
+Key: v, Value:32
+Out: 10
+30
+32
+30
+
+FileTable: 
+

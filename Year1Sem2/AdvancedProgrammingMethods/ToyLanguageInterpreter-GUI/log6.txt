@@ -1,0 +1,867 @@
+ExeStack: 
+(Type Ref(int) v;(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+Type Ref(Ref(int)) a
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+Type Ref(Ref(int)) a
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+HeapAllocStmt{varName='a', expression=v}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+HeapAllocStmt{varName='a', expression=v}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) v;(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+Type Ref(Ref(int)) a
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+Type Ref(Ref(int)) a
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+HeapAllocStmt{varName='a', expression=v}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+HeapAllocStmt{varName='a', expression=v}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) v;(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+Type Ref(Ref(int)) a
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+Type Ref(Ref(int)) a
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+HeapAllocStmt{varName='a', expression=v}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+HeapAllocStmt{varName='a', expression=v}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+25
+
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) v;(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+Type Ref(Ref(int)) a
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+Type Ref(Ref(int)) a
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+HeapAllocStmt{varName='a', expression=v}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+HeapAllocStmt{varName='a', expression=v}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+25
+
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) v;(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(Ref(int)) a;(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+Type Ref(Ref(int)) a
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+Type Ref(Ref(int)) a
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='a', expression=v};(print(v);print(a + 5)))
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+HeapAllocStmt{varName='a', expression=v}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+HeapAllocStmt{varName='a', expression=v}
+SymTable: 
+Key: a, Value:RefValue{address=0, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);print(a + 5))
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+print(v)
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+print(a + 5)
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: a, Value:RefValue{address=2, locationType=Ref(int)}
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+25
+
+FileTable: 
+

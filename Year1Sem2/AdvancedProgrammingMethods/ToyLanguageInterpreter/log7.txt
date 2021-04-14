@@ -1,0 +1,674 @@
+ExeStack: 
+(Type Ref(int) v;(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+print(v)
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+print(v)
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+HeapWriteStmt{varName='v', expression=30}
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+HeapWriteStmt{varName='v', expression=30}
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) v;(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+print(v)
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+print(v)
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+HeapWriteStmt{varName='v', expression=30}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+HeapWriteStmt{varName='v', expression=30}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) v;(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+print(v)
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+print(v)
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+HeapWriteStmt{varName='v', expression=30}
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+HeapWriteStmt{varName='v', expression=30}
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+35
+
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) v;(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+print(v)
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+print(v)
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+HeapWriteStmt{varName='v', expression=30}
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+HeapWriteStmt{varName='v', expression=30}
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+35
+
+FileTable: 
+
+ExeStack: 
+(Type Ref(int) v;(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+Type Ref(int) v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapAllocStmt{varName='v', expression=20};(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5))))
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+HeapAllocStmt{varName='v', expression=20}
+SymTable: 
+Key: v, Value:RefValue{address=0, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(print(v);(HeapWriteStmt{varName='v', expression=30};print(v + 5)))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+print(v)
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+print(v)
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+(HeapWriteStmt{varName='v', expression=30};print(v + 5))
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+HeapWriteStmt{varName='v', expression=30}
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+HeapWriteStmt{varName='v', expression=30}
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+print(v + 5)
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: v, Value:RefValue{address=1, locationType=int}
+Out: 20
+35
+
+FileTable: 
+

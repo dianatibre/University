@@ -1,0 +1,2880 @@
+ExeStack: 
+(Type int v;(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+v=5
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+v=5
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:5
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:5
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:4
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:4
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+0
+
+FileTable: 
+
+ExeStack: 
+(Type int v;(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+v=5
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+v=5
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:5
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:5
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:4
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:4
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+0
+
+FileTable: 
+
+ExeStack: 
+(Type int v;(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+v=5
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+v=5
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:5
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:5
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:4
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:4
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+0
+
+FileTable: 
+
+ExeStack: 
+(Type int v;(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+v=5
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+v=5
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:5
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:5
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:4
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:4
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+0
+
+FileTable: 
+
+ExeStack: 
+(Type int v;(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+Type int v
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(v=5;(while( v > 0) { (print(v);v=v - 1) };print(v)))
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+v=5
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+v=5
+SymTable: 
+Key: v, Value:0
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+(while( v > 0) { (print(v);v=v - 1) };print(v))
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:5
+Out: 
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:5
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:5
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:4
+Out: 5
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:4
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:4
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:3
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:2
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+(print(v);v=v - 1)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+print(v)
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+v=v - 1
+SymTable: 
+Key: v, Value:1
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+while( v > 0) { (print(v);v=v - 1) }
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+print(v)
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+
+FileTable: 
+
+ExeStack: 
+SymTable: 
+Key: v, Value:0
+Out: 5
+4
+3
+2
+1
+0
+
+FileTable: 
+

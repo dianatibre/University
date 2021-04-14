@@ -1,0 +1,1525 @@
+ExeStack: 
+(Type string varf;(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+Type string varf
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+Type string varf
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+varf=test.in
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+varf=test.in
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+Open file varf
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+Open file varf
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+Type int varc
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+Type int varc
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(print(varc); close file varf)
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(print(varc); close file varf)
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(print(varc); close file varf)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+(print(varc); close file varf)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+ close file varf
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+ close file varf
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+ close file varf
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+50
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+ close file varf
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+50
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@41906a77
+
+
+ExeStack: 
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+50
+
+FileTable: 
+
+ExeStack: 
+(Type string varf;(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+Type string varf
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+Type string varf
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+varf=test.in
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+varf=test.in
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+Open file varf
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+Open file varf
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+Type int varc
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+Type int varc
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(print(varc); close file varf)
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(print(varc); close file varf)
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(print(varc); close file varf)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+(print(varc); close file varf)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+ close file varf
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+ close file varf
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+ close file varf
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+50
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+ close file varf
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+50
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@69663380
+
+
+ExeStack: 
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+50
+
+FileTable: 
+
+ExeStack: 
+(Type string varf;(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+Type string varf
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+Type string varf
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+varf=test.in
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+varf=test.in
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+Open file varf
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+Open file varf
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+Type int varc
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+Type int varc
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc); close file varf)
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc); close file varf)
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc); close file varf)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc); close file varf)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+ close file varf
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+ close file varf
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+ close file varf
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+50
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+ close file varf
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+50
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+50
+
+FileTable: 
+
+ExeStack: 
+(Type string varf;(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+Type string varf
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+Type string varf
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+varf=test.in
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+varf=test.in
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+Open file varf
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+Open file varf
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+Type int varc
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+Type int varc
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc); close file varf)
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc); close file varf)
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc); close file varf)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc); close file varf)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+ close file varf
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+ close file varf
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+ close file varf
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+50
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+ close file varf
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+50
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+50
+
+FileTable: 
+
+ExeStack: 
+(Type string varf;(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))))
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+Type string varf
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+Type string varf
+SymTable: 
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(varf=test.in;(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))))
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+varf=test.in
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+varf=test.in
+SymTable: 
+Key: varf, Value:
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Open file varf;(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+Open file varf
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+Open file varf
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: 
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Type int varc;(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf)))))
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+Type int varc
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+Type int varc
+SymTable: 
+Key: varf, Value:test.in
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc);(Read varf/varc;(print(varc); close file varf))))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:0
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc);(Read varf/varc;(print(varc); close file varf)))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(Read varf/varc;(print(varc); close file varf))
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc); close file varf)
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc); close file varf)
+Read varf/varc
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:15
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc); close file varf)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+(print(varc); close file varf)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+ close file varf
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+ close file varf
+print(varc)
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+ close file varf
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+50
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+ close file varf
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+50
+
+FileTable: FileName: test.in, FileDescriptor:java.io.BufferedReader@5b37e0d2
+
+
+ExeStack: 
+SymTable: 
+Key: varf, Value:test.in
+Key: varc, Value:50
+Out: 15
+50
+
+FileTable: 
+
