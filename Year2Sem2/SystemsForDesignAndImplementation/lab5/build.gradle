@@ -1,0 +1,22 @@
+allprojects {
+
+    apply plugin: 'java'
+
+    group 'ro.ubb.socket'
+    version '1.0-SNAPSHOT'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compile group: 'org.postgresql', name: 'postgresql', version: '42.2.9'
+        testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+        testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+
+}

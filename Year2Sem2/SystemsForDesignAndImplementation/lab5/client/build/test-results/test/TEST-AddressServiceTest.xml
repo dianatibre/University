@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AddressServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-23T13:12:08" hostname="DESKTOP-PU9UT93" time="0.07">
+  <properties/>
+  <testcase name="testAdd()" classname="AddressServiceTest" time="0.018"/>
+  <testcase name="testGet()" classname="AddressServiceTest" time="0.024"/>
+  <testcase name="testSort()" classname="AddressServiceTest" time="0.006"/>
+  <testcase name="testDelete()" classname="AddressServiceTest" time="0.006"/>
+  <testcase name="testFilter()" classname="AddressServiceTest" time="0.005"/>
+  <testcase name="testUpdate()" classname="AddressServiceTest" time="0.006"/>
+  <system-out><![CDATA[aaagetAddresses
+client - sent request: Message{header='getAddresses', body='aaa'}
+Address{id='1', city='s', street='ss', number=1, zipCode=v}addAddress
+client - sent request: Message{header='addAddress', body='Address{id='1', city='s', street='ss', number=1, zipCode=v}'}
+client - received response: Message{header='ok', body='[Address{id='2', city='c2', street='s2', number=30, zipCode=456789}]'}
+client - received response: Message{header='error', body='ro.ubb.socket.common.domain.validators.ValidatorException: The zip code should have the length 6 and contain only digits!
+'}
+aaagetAddresses
+client - sent request: Message{header='getAddresses', body='aaa'}
+sortsortAddress
+client - sent request: Message{header='sortAddress', body='sort'}
+client - received response: Message{header='ok', body='[Address{id='2', city='c2', street='s2', number=30, zipCode=456789}]'}
+client - received response: Message{header='ok', body='[Address{id='2', city='c2', street='s2', number=30, zipCode=456789}]'}
+sortsortAddress
+client - sent request: Message{header='sortAddress', body='sort'}
+1deleteAddress
+client - sent request: Message{header='deleteAddress', body='1'}
+client - received response: Message{header='error', body='java.lang.NullPointerException'}
+client - received response: Message{header='ok', body='[Address{id='2', city='c2', street='s2', number=30, zipCode=456789}]'}
+1deleteAddress
+client - sent request: Message{header='deleteAddress', body='1'}
+c1filterAddress
+client - sent request: Message{header='filterAddress', body='c1'}
+client - received response: Message{header='error', body='java.lang.NullPointerException'}
+client - received response: Message{header='ok', body='[]'}
+c1filterAddress
+client - sent request: Message{header='filterAddress', body='c1'}
+1deleteAddress
+client - received response: Message{header='ok', body='[]'}
+client - sent request: Message{header='deleteAddress', body='1'}
+client - received response: Message{header='error', body='java.lang.NullPointerException'}
+Address{id='1', city='s', street='ss', number=1, zipCode=v}updateAddress
+client - sent request: Message{header='updateAddress', body='Address{id='1', city='s', street='ss', number=1, zipCode=v}'}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

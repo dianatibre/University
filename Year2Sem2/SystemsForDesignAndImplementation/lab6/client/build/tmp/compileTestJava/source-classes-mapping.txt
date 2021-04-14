@@ -1,0 +1,12 @@
+ClientServiceTest.java
+ ClientServiceTest
+RestaurantServiceTest.java
+ RestaurantServiceTest
+ServiceClientGenericTest.java
+ ServiceClientGenericTest
+DishServiceTest.java
+ DishServiceTest
+AddressServiceTest.java
+ AddressServiceTest
+OrderServiceTest.java
+ OrderServiceTest

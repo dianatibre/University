@@ -1,0 +1,52 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"12582c64-2cd6-470f-ae70-9a6f3074ac8e\" name=\"Default Changelist\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"GRADLE\">\n      <state>\n        <projects_view>\n          <tree_state>\n            <expand />\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Interface\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"generalSettings\">\n      <MavenGeneralSettings>\n        <option name=\"mavenHome\" value=\"$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3\" />\n      </MavenGeneralSettings>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"1qiJHJxQkG59Nrb8C0rlVya8mQi\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\n    <property name=\"show.unlinked.gradle.project.popup\" value=\"true\" />\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"lab7.Main\" />\n      <module name=\"lab7.main\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"lab7.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Main\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"12582c64-2cd6-470f-ae70-9a6f3074ac8e\" name=\"Default Changelist\" comment=\"\" />\n      <created>1617555661555</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1617555661555</updated>\n      <workItem from=\"1617555663466\" duration=\"650000\" />\n      <workItem from=\"1617556388902\" duration=\"2107000\" />\n      <workItem from=\"1617558577411\" duration=\"613000\" />\n      <workItem from=\"1617559206214\" duration=\"24000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"653\" y=\"225\" key=\"#com.intellij.ide.util.MemberChooser\" timestamp=\"1617557703704\">\n      <screen x=\"0\" y=\"23\" width=\"1680\" height=\"978\" />\n    </state>\n    <state x=\"653\" y=\"225\" key=\"#com.intellij.ide.util.MemberChooser/0.23.1680.978@0.23.1680.978\" timestamp=\"1617557703704\" />\n    <state x=\"328\" y=\"93\" key=\"SettingsEditor\" timestamp=\"1617556435184\">\n      <screen x=\"0\" y=\"23\" width=\"1680\" height=\"978\" />\n    </state>\n    <state x=\"328\" y=\"93\" key=\"SettingsEditor/0.23.1680.978@0.23.1680.978\" timestamp=\"1617556435184\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 2b6d04f922f457ca82a46fb934e28b97796e9aab)
++++ .idea/workspace.xml	(date 1617559528829)
+@@ -22,9 +22,7 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="12582c64-2cd6-470f-ae70-9a6f3074ac8e" name="Default Changelist" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-    </list>
++    <list default="true" id="12582c64-2cd6-470f-ae70-9a6f3074ac8e" name="Default Changelist" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -111,7 +109,7 @@
+       <workItem from="1617555663466" duration="650000" />
+       <workItem from="1617556388902" duration="2107000" />
+       <workItem from="1617558577411" duration="613000" />
+-      <workItem from="1617559206214" duration="24000" />
++      <workItem from="1617559206214" duration="322000" />
+     </task>
+     <servers />
+   </component>
+@@ -135,6 +133,22 @@
+       <screen x="0" y="23" width="1680" height="978" />
+     </state>
+     <state x="653" y="225" key="#com.intellij.ide.util.MemberChooser/0.23.1680.978@0.23.1680.978" timestamp="1617557703704" />
++    <state width="1638" height="264" key="GridCell.Tab.0.bottom" timestamp="1617559528677">
++      <screen x="0" y="23" width="1680" height="978" />
++    </state>
++    <state width="1638" height="264" key="GridCell.Tab.0.bottom/0.23.1680.978@0.23.1680.978" timestamp="1617559528677" />
++    <state width="1638" height="264" key="GridCell.Tab.0.center" timestamp="1617559528676">
++      <screen x="0" y="23" width="1680" height="978" />
++    </state>
++    <state width="1638" height="264" key="GridCell.Tab.0.center/0.23.1680.978@0.23.1680.978" timestamp="1617559528676" />
++    <state width="1638" height="264" key="GridCell.Tab.0.left" timestamp="1617559528676">
++      <screen x="0" y="23" width="1680" height="978" />
++    </state>
++    <state width="1638" height="264" key="GridCell.Tab.0.left/0.23.1680.978@0.23.1680.978" timestamp="1617559528676" />
++    <state width="1638" height="264" key="GridCell.Tab.0.right" timestamp="1617559528677">
++      <screen x="0" y="23" width="1680" height="978" />
++    </state>
++    <state width="1638" height="264" key="GridCell.Tab.0.right/0.23.1680.978@0.23.1680.978" timestamp="1617559528677" />
+     <state x="328" y="93" key="SettingsEditor" timestamp="1617556435184">
+       <screen x="0" y="23" width="1680" height="978" />
+     </state>

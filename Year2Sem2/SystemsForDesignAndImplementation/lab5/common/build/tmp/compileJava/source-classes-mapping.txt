@@ -1,0 +1,48 @@
+ro/ubb/socket/common/common/validators/Validator.java
+ ro.ubb.socket.common.common.validators.Validator
+ro/ubb/socket/common/service/ClientService.java
+ ro.ubb.socket.common.service.ClientService
+ro/ubb/socket/common/common/validators/RestaurantException.java
+ ro.ubb.socket.common.common.validators.RestaurantException
+ro/ubb/socket/common/common/validators/RestaurantValidator.java
+ ro.ubb.socket.common.common.validators.RestaurantValidator
+ro/ubb/socket/common/service/OrderService.java
+ ro.ubb.socket.common.service.OrderService
+ro/ubb/socket/common/service/RestaurantService.java
+ ro.ubb.socket.common.service.RestaurantService
+ro/ubb/socket/common/service/DishService.java
+ ro.ubb.socket.common.service.DishService
+ro/ubb/socket/common/common/validators/OrderValidator.java
+ ro.ubb.socket.common.common.validators.OrderValidator
+ro/ubb/socket/common/common/validators/AddressValidator.java
+ ro.ubb.socket.common.common.validators.AddressValidator
+ro/ubb/socket/common/service/Service.java
+ ro.ubb.socket.common.service.Service
+ro/ubb/socket/common/common/validators/ClientValidator.java
+ ro.ubb.socket.common.common.validators.ClientValidator
+ro/ubb/socket/common/common/validators/ExtraFunctions.java
+ ro.ubb.socket.common.common.validators.ExtraFunctions
+ro/ubb/socket/common/common/BaseEntity.java
+ ro.ubb.socket.common.common.BaseEntity
+ro/ubb/socket/common/service/Message.java
+ ro.ubb.socket.common.service.Message
+ro/ubb/socket/common/common/validators/ValidatorException.java
+ ro.ubb.socket.common.common.validators.ValidatorException
+ro/ubb/socket/common/common/Client.java
+ ro.ubb.socket.common.common.Client
+ro/ubb/socket/common/service/AddressService.java
+ ro.ubb.socket.common.service.AddressService
+ro/ubb/socket/common/common/OptionalObj.java
+ ro.ubb.socket.common.common.OptionalObj
+ro/ubb/socket/common/service/CommonServiceException.java
+ ro.ubb.socket.common.service.CommonServiceException
+ro/ubb/socket/common/common/Restaurant.java
+ ro.ubb.socket.common.common.Restaurant
+ro/ubb/socket/common/common/Order.java
+ ro.ubb.socket.common.common.Order
+ro/ubb/socket/common/common/validators/DishValidator.java
+ ro.ubb.socket.common.common.validators.DishValidator
+ro/ubb/socket/common/common/Dish.java
+ ro.ubb.socket.common.common.Dish
+ro/ubb/socket/common/common/Address.java
+ ro.ubb.socket.common.common.Address

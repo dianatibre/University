@@ -1,0 +1,28 @@
+ro/ubb/socket/client/service/DishService.java
+ ro.ubb.socket.client.service.DishService
+ro/ubb/socket/client/ui/OrderConsole.java
+ ro.ubb.socket.client.ui.OrderConsole
+ro/ubb/socket/client/service/ClientService.java
+ ro.ubb.socket.client.service.ClientService
+ro/ubb/socket/client/tcp/TcpClient.java
+ ro.ubb.socket.client.tcp.TcpClient
+ro/ubb/socket/client/service/RestaurantService.java
+ ro.ubb.socket.client.service.RestaurantService
+ro/ubb/socket/client/ui/Console.java
+ ro.ubb.socket.client.ui.Console
+ro/ubb/socket/client/ui/DishConsole.java
+ ro.ubb.socket.client.ui.DishConsole
+ro/ubb/socket/client/ui/AddressConsole.java
+ ro.ubb.socket.client.ui.AddressConsole
+ro/ubb/socket/client/ui/RestaurantConsole.java
+ ro.ubb.socket.client.ui.RestaurantConsole
+ro/ubb/socket/client/ui/ClientConsole.java
+ ro.ubb.socket.client.ui.ClientConsole
+ro/ubb/socket/client/service/ServiceClientGeneric.java
+ ro.ubb.socket.client.service.ServiceClientGeneric
+ro/ubb/socket/client/service/AddressService.java
+ ro.ubb.socket.client.service.AddressService
+ro/ubb/socket/client/ClientApp.java
+ ro.ubb.socket.client.ClientApp
+ro/ubb/socket/client/service/OrderService.java
+ ro.ubb.socket.client.service.OrderService

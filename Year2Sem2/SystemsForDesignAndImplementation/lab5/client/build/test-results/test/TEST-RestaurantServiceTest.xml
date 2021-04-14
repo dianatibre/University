@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RestaurantServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-23T13:12:08" hostname="DESKTOP-PU9UT93" time="0.026">
+  <properties/>
+  <testcase name="testAdd()" classname="RestaurantServiceTest" time="0.001"/>
+  <testcase name="testGet()" classname="RestaurantServiceTest" time="0.005"/>
+  <testcase name="testSort()" classname="RestaurantServiceTest" time="0.003"/>
+  <testcase name="testDelete()" classname="RestaurantServiceTest" time="0.004"/>
+  <testcase name="testFilter()" classname="RestaurantServiceTest" time="0.005"/>
+  <testcase name="testUpdate()" classname="RestaurantServiceTest" time="0.005"/>
+  <system-out><![CDATA[aaagetRestaurants
+client - sent request: Message{header='getRestaurants', body='aaa'}
+Restaurant{id='1', name='name', rating=20, capacity=1, delivery=true}addRestaurant
+client - received response: Message{header='ok', body='[Restaurant{id='2', name='r2', rating=4, capacity=200, delivery=false}]'}
+client - sent request: Message{header='addRestaurant', body='Restaurant{id='1', name='name', rating=20, capacity=1, delivery=true}'}
+client - received response: Message{header='error', body='ro.ubb.socket.common.domain.validators.ValidatorException: Rating should be an integer from 0 to 5!
+'}
+aaagetRestaurants
+client - sent request: Message{header='getRestaurants', body='aaa'}
+sortsortRestaurant
+client - sent request: Message{header='sortRestaurant', body='sort'}
+client - received response: Message{header='ok', body='[Restaurant{id='2', name='r2', rating=4, capacity=200, delivery=false}]'}
+client - received response: Message{header='ok', body='[Restaurant{id='2', name='r2', rating=4, capacity=200, delivery=false}]'}
+sortsortRestaurant
+client - sent request: Message{header='sortRestaurant', body='sort'}
+1deleteRestaurant
+client - sent request: Message{header='deleteRestaurant', body='1'}
+client - received response: Message{header='error', body='java.lang.NullPointerException'}
+client - received response: Message{header='ok', body='[Restaurant{id='2', name='r2', rating=4, capacity=200, delivery=false}]'}
+1deleteRestaurant
+client - sent request: Message{header='deleteRestaurant', body='1'}
+20filterRestaurant
+client - sent request: Message{header='filterRestaurant', body='20'}
+client - received response: Message{header='error', body='java.lang.NullPointerException'}
+client - received response: Message{header='ok', body='[]'}
+20filterRestaurant
+client - sent request: Message{header='filterRestaurant', body='20'}
+1deleteRestaurant
+client - sent request: Message{header='deleteRestaurant', body='1'}
+client - received response: Message{header='ok', body='[]'}
+client - received response: Message{header='error', body='java.lang.NullPointerException'}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

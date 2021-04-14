@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ClientServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-23T13:12:08" hostname="DESKTOP-PU9UT93" time="0.044">
+  <properties/>
+  <testcase name="testAdd()" classname="ClientServiceTest" time="0.003"/>
+  <testcase name="testGet()" classname="ClientServiceTest" time="0.013"/>
+  <testcase name="testSort()" classname="ClientServiceTest" time="0.011"/>
+  <testcase name="testDelete()" classname="ClientServiceTest" time="0.006"/>
+  <testcase name="testFilter()" classname="ClientServiceTest" time="0.005"/>
+  <testcase name="testUpdate()" classname="ClientServiceTest" time="0.005"/>
+  <system-out><![CDATA[aaagetClients
+client - sent request: Message{header='getClients', body='aaa'}
+Client{id='1'name='name', age=20, address='1', email='str@yahoo'}addClient
+client - received response: Message{header='ok', body='[Client{id='2'name='Ana', age=28, address='2', email='maria@yahoo'}]'}
+client - sent request: Message{header='addClient', body='Client{id='1'name='name', age=20, address='1', email='str@yahoo'}'}
+aaagetClients
+client - sent request: Message{header='getClients', body='aaa'}
+sortsortClient
+client - sent request: Message{header='sortClient', body='sort'}
+client - received response: Message{header='ok', body='[Client{id='2'name='Ana', age=28, address='2', email='maria@yahoo'}]'}
+client - received response: Message{header='ok', body='[Client{id='2'name='Ana', age=28, address='2', email='maria@yahoo'}]'}
+client - received response: Message{header='ok', body='OptionalObj{data=Client{id='1'name='name', age=20, address='1', email='str@yahoo'}}'}
+sortsortClient
+client - sent request: Message{header='sortClient', body='sort'}
+1deleteClient
+client - sent request: Message{header='deleteClient', body='1'}
+client - received response: Message{header='error', body='java.lang.NullPointerException'}
+client - received response: Message{header='ok', body='[Client{id='2'name='Ana', age=28, address='2', email='maria@yahoo'}]'}
+1deleteClient
+client - sent request: Message{header='deleteClient', body='1'}
+20filterClient
+client - sent request: Message{header='filterClient', body='20'}
+client - received response: Message{header='error', body='java.lang.NullPointerException'}
+client - received response: Message{header='ok', body='[]'}
+20filterClient
+1deleteClient
+client - sent request: Message{header='deleteClient', body='1'}
+client - received response: Message{header='error', body='java.lang.NullPointerException'}
+client - sent request: Message{header='filterClient', body='20'}
+client - received response: Message{header='ok', body='[]'}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

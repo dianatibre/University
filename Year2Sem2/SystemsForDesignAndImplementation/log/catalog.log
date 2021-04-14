@@ -1,0 +1,39 @@
+2021-04-01T11:08:22,659 TRACE [main]: AddressService                       - get --- method entered 
+2021-04-01T11:08:23,086 TRACE [main]: AddressService                       - getAllClients: result=[] 
+2021-04-02T09:28:33,790 TRACE [main]: AddressService                       - add: address=Address{id='null', city='a', street='a', number=1, zipCode=123456} 
+2021-04-03T09:54:33,985 TRACE [main]: ClientService                        - add: clientClient{id='1'name='a', age=22, address='1', email='a@aaaaa'} 
+2021-04-03T09:54:34,089 TRACE [main]: ClientService                        - add --- method finished 
+2021-04-03T10:09:47,093 TRACE [main]: ClientService                        - add: clientClient{id='1'name='q', age=23, address='1', email='a@qqqqqq'} 
+2021-04-03T10:09:47,166 TRACE [main]: ClientService                        - add --- method finished 
+2021-04-03T10:09:47,167 INFO  [main]: ClientService                        - Client already exists! 
+2021-04-03T10:15:53,555 TRACE [main]: ClientService                        - delete: id=1 
+2021-04-03T10:15:53,630 TRACE [main]: ClientService                        - delete --- method finished 
+2021-04-03T10:16:11,870 TRACE [main]: ClientService                        - add: clientClient{id='1'name='a', age=22, address='1', email='a@aaaaa'} 
+2021-04-03T10:16:11,881 TRACE [main]: ClientService                        - add --- method finished 
+2021-04-03T10:18:48,858 TRACE [main]: ClientService                        - add: clientClient{id='1'name='a', age=23, address='1', email='a@aaaaaa'} 
+2021-04-03T10:18:48,912 INFO  [main]: ClientService                        - Client already exists! 
+2021-04-03T10:19:31,223 TRACE [main]: ClientService                        - add: clientClient{id='1'name='a', age=23, address='1', email='a@aaaa'} 
+2021-04-03T10:19:31,287 INFO  [main]: ClientService                        - Client already exists or innexistent addressId! 
+2021-04-03T10:19:46,187 TRACE [main]: AddressService                       - add: address=Address{id='1', city='a', street='a', number=1, zipCode=123456} 
+2021-04-03T10:19:46,225 TRACE [main]: AddressService                       - add --- method finished 
+2021-04-03T10:20:02,486 TRACE [main]: ClientService                        - add: clientClient{id='1'name='a', age=23, address='1', email='a@aaaaa'} 
+2021-04-03T10:20:02,526 TRACE [main]: ClientService                        - add --- method finished 
+2021-04-03T10:20:12,496 TRACE [main]: AddressService                       - delete: id=1 
+2021-04-03T10:20:12,515 TRACE [main]: AddressService                       - delete --- method finished 
+2021-04-03T10:22:18,925 TRACE [main]: ClientService                        - delete: id=1 
+2021-04-03T10:22:18,937 TRACE [main]: ClientService                        - delete --- method finished 
+2021-04-03T10:27:26,295 TRACE [main]: AddressService                       - add: address=Address{id='1', city='a', street='1', number=1, zipCode=123456} 
+2021-04-03T10:27:26,371 TRACE [main]: AddressService                       - add --- method finished 
+2021-04-03T10:27:37,261 TRACE [main]: ClientService                        - add: clientClient{id='1'name='a', age=23, address='1', email='a@aaaaa'} 
+2021-04-03T10:27:37,279 TRACE [main]: ClientService                        - add --- method finished 
+2021-04-03T10:27:51,770 TRACE [main]: ClientService                        - update: client=Client{id='1'name='q', age=22, address='1', email='a@aaqqqq'} 
+2021-04-03T10:27:51,777 DEBUG [main]: ClientService                        - updateClient: client=Client{id='1'name='q', age=22, address='1', email='a@aaqqqq'} 
+2021-04-03T10:27:51,777 TRACE [main]: ClientService                        - upd --- method finished 
+2021-04-03T10:28:03,794 TRACE [main]: ClientService                        - update: client=Client{id='1'name='q', age=23, address='2', email='a@qqqqqq'} 
+2021-04-03T10:28:03,799 INFO  [main]: ClientService                        - Client with this ID doesn't exist or nonexistent addressId! 
+2021-04-03T10:28:09,310 TRACE [main]: ClientService                        - delete: id=4 
+2021-04-03T10:28:09,321 INFO  [main]: ClientService                        - No Client with this ID was found! 
+2021-04-03T10:28:14,693 TRACE [main]: ClientService                        - delete: id=1 
+2021-04-03T10:28:14,713 TRACE [main]: ClientService                        - delete --- method finished 
+2021-04-03T10:28:27,174 TRACE [main]: AddressService                       - delete: id=1 
+2021-04-03T10:28:27,185 TRACE [main]: AddressService                       - delete --- method finished 

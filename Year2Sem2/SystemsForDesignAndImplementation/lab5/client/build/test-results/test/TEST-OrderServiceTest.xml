@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OrderServiceTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-03-23T13:12:08" hostname="DESKTOP-PU9UT93" time="0.034">
+  <properties/>
+  <testcase name="testAdd()" classname="OrderServiceTest" time="0.002"/>
+  <testcase name="testGet()" classname="OrderServiceTest" time="0.004"/>
+  <testcase name="testSort()" classname="OrderServiceTest" time="0.004"/>
+  <testcase name="testBestClient()" classname="OrderServiceTest" time="0.004"/>
+  <testcase name="testBestRestaurant()" classname="OrderServiceTest" time="0.003"/>
+  <testcase name="testDelete()" classname="OrderServiceTest" time="0.004"/>
+  <testcase name="testFilter()" classname="OrderServiceTest" time="0.004"/>
+  <testcase name="testUpdate()" classname="OrderServiceTest" time="0.004"/>
+  <system-out><![CDATA[client - received response: Message{header='error', body='java.lang.NullPointerException'}
+aaagetOrders
+client - sent request: Message{header='getOrders', body='aaa'}
+client - received response: Message{header='ok', body='[]'}
+aaagetOrders
+client - sent request: Message{header='getOrders', body='aaa'}
+sortsortOrder
+client - sent request: Message{header='sortOrder', body='sort'}
+client - received response: Message{header='ok', body='[]'}
+client - received response: Message{header='ok', body='[]'}
+sortsortOrder
+client - sent request: Message{header='sortOrder', body='sort'}
+aaamostDevotedClients
+client - sent request: Message{header='mostDevotedClients', body='aaa'}
+client - received response: Message{header='ok', body='[]'}
+client - received response: Message{header='ok', body='[]'}
+aaamostDevotedClients
+client - sent request: Message{header='mostDevotedClients', body='aaa'}
+aaanumberBestRestaurant
+client - sent request: Message{header='numberBestRestaurant', body='aaa'}
+client - received response: Message{header='error', body='java.util.NoSuchElementException'}
+client - received response: Message{header='ok', body='[]'}
+aaabestRestaurant
+client - sent request: Message{header='bestRestaurant', body='aaa'}
+1deleteOrder
+client - sent request: Message{header='deleteOrder', body='1'}
+client - received response: Message{header='ok', body='[]'}
+client - received response: Message{header='error', body='java.lang.NullPointerException'}
+c1filterOrder
+1deleteOrder
+client - sent request: Message{header='filterOrder', body='c1'}
+client - sent request: Message{header='deleteOrder', body='1'}
+client - received response: Message{header='ok', body='[]'}
+client - received response: Message{header='error', body='java.lang.NullPointerException'}
+c1filterOrder
+client - sent request: Message{header='filterOrder', body='c1'}
+1deleteOrder
+client - sent request: Message{header='deleteOrder', body='1'}
+client - received response: Message{header='ok', body='[]'}
+client - received response: Message{header='error', body='java.lang.NullPointerException'}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

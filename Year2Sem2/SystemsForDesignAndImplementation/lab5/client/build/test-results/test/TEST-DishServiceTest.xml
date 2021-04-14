@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DishServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-23T13:12:08" hostname="DESKTOP-PU9UT93" time="0.04">
+  <properties/>
+  <testcase name="testAdd()" classname="DishServiceTest" time="0.002"/>
+  <testcase name="testGet()" classname="DishServiceTest" time="0.013"/>
+  <testcase name="testSort()" classname="DishServiceTest" time="0.007"/>
+  <testcase name="testDelete()" classname="DishServiceTest" time="0.006"/>
+  <testcase name="testFilter()" classname="DishServiceTest" time="0.004"/>
+  <testcase name="testUpdate()" classname="DishServiceTest" time="0.005"/>
+  <system-out><![CDATA[client - received response: Message{header='error', body='java.lang.NullPointerException'}
+aaagetDishes
+client - sent request: Message{header='getDishes', body='aaa'}
+client - received response: Message{header='ok', body='[Dish{id='2'name='d2', price=8.1, quantity=9, category='c2'}, Dish{id='3'name='d3', price=7.0, quantity=10, category='c3'}, Dish{id='4'name='ana', price=20.0, quantity=42, category='c2'}]'}
+Dish{id='1'name='s', price=2.1, quantity=1, category='2'}addDish
+client - sent request: Message{header='addDish', body='Dish{id='1'name='s', price=2.1, quantity=1, category='2'}'}
+client - received response: Message{header='ok', body='OptionalObj{data=null}'}
+sortsortDish
+client - sent request: Message{header='sortDish', body='sort'}
+aaagetDishes
+client - sent request: Message{header='getDishes', body='aaa'}
+client - received response: Message{header='ok', body='[Dish{id='4'name='ana', price=20.0, quantity=42, category='c2'}, Dish{id='2'name='d2', price=8.1, quantity=9, category='c2'}, Dish{id='3'name='d3', price=7.0, quantity=10, category='c3'}, Dish{id='1'name='s', price=2.1, quantity=1, category='2'}]'}
+client - received response: Message{header='ok', body='[Dish{id='2'name='d2', price=8.1, quantity=9, category='c2'}, Dish{id='3'name='d3', price=7.0, quantity=10, category='c3'}, Dish{id='4'name='ana', price=20.0, quantity=42, category='c2'}, Dish{id='1'name='s', price=2.1, quantity=1, category='2'}]'}
+1deleteDish
+client - sent request: Message{header='deleteDish', body='1'}
+sortsortDish
+client - sent request: Message{header='sortDish', body='sort'}
+client - received response: Message{header='ok', body='OptionalObj{data=Dish{id='1'name='s', price=2.1, quantity=1, category='2'}}'}
+client - received response: Message{header='ok', body='[Dish{id='4'name='ana', price=20.0, quantity=42, category='c2'}, Dish{id='2'name='d2', price=8.1, quantity=9, category='c2'}, Dish{id='3'name='d3', price=7.0, quantity=10, category='c3'}]'}
+1deleteDish
+client - sent request: Message{header='deleteDish', body='1'}
+c1filterDish
+client - sent request: Message{header='filterDish', body='c1'}
+client - received response: Message{header='error', body='java.lang.NullPointerException'}
+client - received response: Message{header='ok', body='[]'}
+c1filterDish
+client - sent request: Message{header='filterDish', body='c1'}
+1deleteDish
+client - sent request: Message{header='deleteDish', body='1'}
+client - received response: Message{header='ok', body='[]'}
+client - received response: Message{header='error', body='java.lang.NullPointerException'}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,331 @@
+2021-04-09T09:42:59,120 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T09:42:59,893 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 3 - , city=s, street=s, number=2, zipCode=222222) 
+2021-04-09T09:42:59,894 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 2 - , city=z, street=z, number=2, zipCode=234567) 
+2021-04-09T09:42:59,894 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=a, street=a, number=1, zipCode=123456) 
+2021-04-09T09:42:59,895 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 4 - , city=a, street=a, number=1, zipCode=123456) 
+2021-04-09T09:42:59,895 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 5 - , city=a, street=1, number=1, zipCode=123456) 
+2021-04-09T09:42:59,895 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 12 - , city=a, street=a, number=1, zipCode=123456) 
+2021-04-09T09:42:59,896 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 8 - , city=q, street=q, number=1, zipCode=111111) 
+2021-04-09T09:42:59,896 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 9 - , city=a, street=23, number=234, zipCode=123456) 
+2021-04-09T09:43:06,135 INFO  [main]: AddressConsole                       - sortAddress--- method entered 
+2021-04-09T09:43:06,157 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=a, street=a, number=1, zipCode=123456) 
+2021-04-09T09:43:06,158 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 4 - , city=a, street=a, number=1, zipCode=123456) 
+2021-04-09T09:43:06,158 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 5 - , city=a, street=1, number=1, zipCode=123456) 
+2021-04-09T09:43:06,159 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 12 - , city=a, street=a, number=1, zipCode=123456) 
+2021-04-09T09:43:06,159 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 9 - , city=a, street=23, number=234, zipCode=123456) 
+2021-04-09T09:43:06,159 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 8 - , city=q, street=q, number=1, zipCode=111111) 
+2021-04-09T09:43:06,160 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 3 - , city=s, street=s, number=2, zipCode=222222) 
+2021-04-09T09:43:06,161 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 2 - , city=z, street=z, number=2, zipCode=234567) 
+2021-04-09T09:43:22,175 INFO  [main]: AddressConsole                       - deleteAddress: id=12 
+2021-04-09T09:43:22,274 INFO  [main]: AddressConsole                       - deleteAddress --- method finished 
+2021-04-09T09:43:37,215 INFO  [main]: AddressConsole                       - saveAddress: address=Address(super=ID: 20 - , city=, street=a, number=1, zipCode=123456) 
+2021-04-09T09:43:37,357 INFO  [main]: AddressConsole                       - Validation exception! 
+2021-04-09T20:22:22,702 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T20:26:37,242 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T20:40:26,347 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T20:57:59,855 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T20:59:53,366 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T21:55:51,137 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T22:08:49,243 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T22:40:35,103 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T22:40:35,224 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=c1, street=s1, number=10, zipCode=123456) 
+2021-04-10T20:43:28,480 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-10T20:43:29,076 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=c1, street=s1, number=10, zipCode=123456) 
+2021-04-10T21:32:26,649 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-10T21:44:09,440 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-10T21:44:10,019 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=c1, street=s1, number=10, zipCode=123456) 
+2021-04-10T21:44:16,454 INFO  [main]: AddressConsole                       - sortAddress--- method entered 
+2021-04-10T21:44:16,557 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=c1, street=s1, number=10, zipCode=123456) 
+2021-04-11T03:37:46,869 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T03:37:47,407 INFO  [main]: DishConsole                          - There are no Dishes! 
+2021-04-11T03:38:09,942 INFO  [main]: DishConsole                          - saveDish: Dish=Dish(super=ID: 1 - , name=d1, price=10.0, quantity=20, category=c1) 
+2021-04-11T03:38:26,013 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T03:38:26,079 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d1, price=10.0, quantity=20, category=c1) 
+2021-04-11T03:38:53,149 INFO  [main]: DishConsole                          - saveDish: Dish=Dish(super=ID: 2 - , name=nane, price=11.0, quantity=6, category=c3) 
+2021-04-11T03:38:56,157 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T03:38:56,181 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d1, price=10.0, quantity=20, category=c1) 
+2021-04-11T03:38:56,183 INFO  [main]: DishConsole                          - DishDto(super=ID: 2 - , name=nane, price=11.0, quantity=6, category=c3) 
+2021-04-11T03:39:26,291 INFO  [main]: DishConsole                          - updateDish: Dish=Dish(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T03:39:29,317 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T03:39:29,339 INFO  [main]: DishConsole                          - DishDto(super=ID: 2 - , name=nane, price=11.0, quantity=6, category=c3) 
+2021-04-11T03:39:29,339 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T03:39:38,349 INFO  [main]: DishConsole                          - sortDish--- method entered 
+2021-04-11T03:39:38,449 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T03:39:38,449 INFO  [main]: DishConsole                          - DishDto(super=ID: 2 - , name=nane, price=11.0, quantity=6, category=c3) 
+2021-04-11T14:01:07,730 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T14:01:08,332 INFO  [main]: DishConsole                          - DishDto(super=ID: 2 - , name=nane, price=11.0, quantity=6, category=c3) 
+2021-04-11T14:01:08,333 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T14:01:20,775 INFO  [main]: DishConsole                          - sortDish--- method entered 
+2021-04-11T14:01:20,880 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T14:01:20,880 INFO  [main]: DishConsole                          - DishDto(super=ID: 2 - , name=nane, price=11.0, quantity=6, category=c3) 
+2021-04-11T14:02:08,180 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-11T14:02:08,275 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=c1, street=s1, number=10, zipCode=123456) 
+2021-04-11T14:02:15,264 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=c1, street=s1, number=10, zipCode=123456) 
+2021-04-11T14:04:34,792 INFO  [main]: RestaurantConsole                    - getAllRestaurants --- method entered 
+2021-04-11T14:04:34,837 INFO  [main]: RestaurantConsole                    - There are no restaurants! 
+2021-04-11T14:04:57,912 INFO  [main]: RestaurantConsole                    - saveRestaurant: restaurant=Restaurant(super=ID: 1 - , name=name, rating=5, capacity=200, delivery=true) 
+2021-04-11T14:05:04,934 INFO  [main]: RestaurantConsole                    - getAllRestaurants --- method entered 
+2021-04-11T14:05:04,965 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 1 - , name=name, rating=5, capacity=200, delivery=true) 
+2021-04-11T14:05:25,014 INFO  [main]: RestaurantConsole                    - saveRestaurant: restaurant=Restaurant(super=ID: 2 - , name=m2, rating=4, capacity=120, delivery=false) 
+2021-04-11T14:05:31,036 INFO  [main]: RestaurantConsole                    - getAllRestaurants --- method entered 
+2021-04-11T14:05:31,058 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 1 - , name=name, rating=5, capacity=200, delivery=true) 
+2021-04-11T14:05:31,058 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 2 - , name=m2, rating=4, capacity=120, delivery=false) 
+2021-04-11T14:05:50,136 INFO  [main]: RestaurantConsole                    - updateRestaurant: Restaurant=Restaurant(super=ID: 1 - , name=nane, rating=3, capacity=300, delivery=true) 
+2021-04-11T14:05:52,143 INFO  [main]: RestaurantConsole                    - getAllRestaurants --- method entered 
+2021-04-11T14:05:52,165 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 2 - , name=m2, rating=4, capacity=120, delivery=false) 
+2021-04-11T14:05:52,165 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 1 - , name=nane, rating=3, capacity=300, delivery=true) 
+2021-04-11T14:06:09,241 INFO  [main]: RestaurantConsole                    - sortRestaurant--- method entered 
+2021-04-11T14:06:09,272 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 2 - , name=m2, rating=4, capacity=120, delivery=false) 
+2021-04-11T14:06:09,273 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 1 - , name=nane, rating=3, capacity=300, delivery=true) 
+2021-04-11T14:06:38,399 INFO  [main]: RestaurantConsole                    - saveRestaurant: restaurant=Restaurant(super=ID: 3 - , name=ana, rating=5, capacity=200, delivery=true) 
+2021-04-11T14:06:40,407 INFO  [main]: RestaurantConsole                    - getAllRestaurants --- method entered 
+2021-04-11T14:06:40,431 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 2 - , name=m2, rating=4, capacity=120, delivery=false) 
+2021-04-11T14:06:40,431 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 1 - , name=nane, rating=3, capacity=300, delivery=true) 
+2021-04-11T14:06:40,431 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 3 - , name=ana, rating=5, capacity=200, delivery=true) 
+2021-04-11T14:06:43,419 INFO  [main]: RestaurantConsole                    - sortRestaurant--- method entered 
+2021-04-11T14:06:43,448 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 3 - , name=ana, rating=5, capacity=200, delivery=true) 
+2021-04-11T14:06:43,448 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 2 - , name=m2, rating=4, capacity=120, delivery=false) 
+2021-04-11T14:06:43,448 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 1 - , name=nane, rating=3, capacity=300, delivery=true) 
+2021-04-11T14:07:11,876 INFO  [main]: RestaurantConsole                    - getAllRestaurants --- method entered 
+2021-04-11T14:07:53,921 INFO  [main]: RestaurantConsole                    - getAllRestaurants --- method entered 
+2021-04-11T14:07:54,481 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 2 - , name=m2, rating=4, capacity=120, delivery=false) 
+2021-04-11T14:07:54,481 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 1 - , name=nane, rating=3, capacity=300, delivery=true) 
+2021-04-11T14:07:54,481 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 3 - , name=ana, rating=5, capacity=200, delivery=true) 
+2021-04-11T14:08:02,970 INFO  [main]: RestaurantConsole                    - deleteRestaurant: id=3 
+2021-04-11T14:08:03,201 INFO  [main]: RestaurantConsole                    - deleteRestaurant --- method finished 
+2021-04-11T14:08:05,983 INFO  [main]: RestaurantConsole                    - getAllRestaurants --- method entered 
+2021-04-11T14:08:06,007 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 2 - , name=m2, rating=4, capacity=120, delivery=false) 
+2021-04-11T14:08:06,008 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 1 - , name=nane, rating=3, capacity=300, delivery=true) 
+2021-04-11T14:08:37,149 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 1 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Fri Oct 02 00:00:00 EEST 2020) 
+2021-04-11T14:08:40,162 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T14:08:40,215 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Fri Oct 02 00:00:00 EEST 2020) 
+2021-04-11T14:09:07,269 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 2 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Oct 10 00:00:00 EEST 2021) 
+2021-04-11T14:09:09,275 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T14:09:09,299 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Fri Oct 02 00:00:00 EEST 2020) 
+2021-04-11T14:09:09,299 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Oct 10 00:00:00 EEST 2021) 
+2021-04-11T14:09:17,309 INFO  [main]: OrderConsole                         - sortOrder--- method entered 
+2021-04-11T14:09:17,393 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Oct 10 00:00:00 EEST 2021) 
+2021-04-11T14:09:17,393 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Fri Oct 02 00:00:00 EEST 2020) 
+2021-04-11T14:10:38,783 INFO  [main]: OrderConsole                         - updateOrder: Order=Orders(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T14:10:42,798 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T14:10:42,822 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Oct 10 00:00:00 EEST 2021) 
+2021-04-11T14:10:42,822 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T14:11:09,904 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 1 - , restaurantID=4, clientID=2, dishID=1, paymentType=card, date=Wed Sep 09 00:00:00 EEST 2020) 
+2021-04-11T14:11:09,939 INFO  [main]: OrderConsole                         - Order already exists 
+2021-04-11T14:12:00,120 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 4 - , restaurantID=4, clientID=2, dishID=1, paymentType=card, date=Wed Sep 09 00:00:00 EEST 2020) 
+2021-04-11T14:12:04,159 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T14:12:04,182 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Oct 10 00:00:00 EEST 2021) 
+2021-04-11T14:12:04,182 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T14:12:04,182 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 4 - , restaurantID=4, clientID=2, dishID=1, paymentType=card, date=Wed Sep 09 00:00:00 EEST 2020) 
+2021-04-11T14:12:13,213 INFO  [main]: OrderConsole                         - deleteOrder: id=4 
+2021-04-11T14:12:13,235 INFO  [main]: OrderConsole                         - deleteOrder --- method finished 
+2021-04-11T14:12:15,221 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T14:12:15,250 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Oct 10 00:00:00 EEST 2021) 
+2021-04-11T14:12:15,250 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T14:12:39,312 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T14:12:39,364 INFO  [main]: DishConsole                          - DishDto(super=ID: 2 - , name=nane, price=11.0, quantity=6, category=c3) 
+2021-04-11T14:12:39,364 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T14:12:44,347 INFO  [main]: DishConsole                          - deleteDish: id=2 
+2021-04-11T14:12:44,387 INFO  [main]: DishConsole                          - deleteDish --- method finished 
+2021-04-11T14:12:55,428 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T14:12:55,445 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T14:13:03,457 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T14:13:03,481 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T14:16:30,623 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T14:58:41,467 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T14:58:41,477 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T14:58:54,535 INFO  [main]: DishConsole                          - sortDish--- method entered 
+2021-04-11T14:58:54,546 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T15:26:38,321 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T15:26:38,937 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T15:26:54,380 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:26:54,461 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:27:16,514 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:27:21,522 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:27:21,537 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:27:21,537 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:27:57,668 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 3 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Apr 04 00:00:00 EEST 2021) 
+2021-04-11T15:28:01,682 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:28:01,698 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:28:01,698 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:28:01,698 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 3 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Apr 04 00:00:00 EEST 2021) 
+2021-04-11T15:28:10,755 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T15:28:10,762 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T15:32:20,088 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:32:20,595 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:32:20,595 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:32:20,595 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 3 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Apr 04 00:00:00 EEST 2021) 
+2021-04-11T15:32:25,132 INFO  [main]: OrderConsole                         - deleteOrder: id=3 
+2021-04-11T15:32:25,259 INFO  [main]: OrderConsole                         - deleteOrder --- method finished 
+2021-04-11T15:32:42,219 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 3 - , restaurantID=1, clientID=1, dishID=4, paymentType=card, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:32:46,231 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:32:46,247 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:32:46,247 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:32:46,247 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 3 - , restaurantID=1, clientID=1, dishID=4, paymentType=card, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:35:29,529 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:35:30,137 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:35:30,137 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:35:30,137 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 3 - , restaurantID=1, clientID=1, dishID=4, paymentType=card, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:35:35,544 INFO  [main]: OrderConsole                         - deleteOrder: id=3 
+2021-04-11T15:35:35,659 INFO  [main]: OrderConsole                         - deleteOrder --- method finished 
+2021-04-11T15:35:54,690 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 3 - , restaurantID=1, clientID=1, dishID=5, paymentType=card, date=Wed May 06 00:00:00 EEST 2020) 
+2021-04-11T15:35:57,698 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:35:57,713 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:35:57,713 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:41:05,167 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:41:05,768 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:41:05,768 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:41:27,284 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 3 - , restaurantID=1, clientID=1, dishID=6, paymentType=card, date=Wed Mar 04 00:00:00 EET 2020) 
+2021-04-11T15:41:32,291 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:41:32,318 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:41:32,318 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:58:03,902 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:58:04,450 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:58:04,450 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:58:22,010 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 3 - , restaurantID=1, clientID=1, dishID=6, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:58:22,170 INFO  [main]: OrderConsole                         - Validation exception! 
+2021-04-11T15:58:41,125 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:58:41,136 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:58:41,136 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:59:56,499 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:59:57,077 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:59:57,077 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T16:00:19,596 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 3 - , restaurantID=1, clientID=1, dishID=5, paymentType=cash, date=Thu Mar 04 00:00:00 EET 2021) 
+2021-04-11T16:00:24,599 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T16:00:24,606 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T16:00:24,606 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T16:01:07,350 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T16:01:07,486 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T16:01:07,486 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T16:01:22,371 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 3 - , restaurantID=1, clientID=1, dishID=6, paymentType=acsqa, date=Wed Mar 04 00:00:00 EET 2020) 
+2021-04-11T16:01:24,369 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T16:01:24,404 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T16:01:24,406 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T16:06:06,031 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T16:06:06,066 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T16:06:06,082 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T16:06:27,104 INFO  [main]: OrderConsole                         - updateOrder: Order=Orders(super=ID: 2 - , restaurantID=1, clientID=1, dishID=4, paymentType=cash, date=Thu Apr 23 00:00:00 EEST 2020) 
+2021-04-11T16:06:31,119 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T16:06:31,162 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T16:06:31,162 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=4, paymentType=cash, date=Thu Apr 23 00:00:00 EEST 2020) 
+2021-04-11T16:06:53,213 INFO  [main]: OrderConsole                         - updateOrder: Order=Orders(super=ID: 5 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Mon Feb 03 00:00:00 EET 2020) 
+2021-04-11T16:06:53,266 INFO  [main]: OrderConsole                         - Order with this ID doesn't exist/Validation Error! 
+2021-04-11T20:56:09,652 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-11T20:56:49,241 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-11T20:56:49,342 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=zzz, street=zzz, number=99, zipCode=999999) 
+2021-04-11T20:56:58,253 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-11T20:57:48,743 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-12T08:29:34,906 INFO  [main]: ClientConsole                        - saveClient: client=Client(super=ID: 10 - , name=a, age=20, address=1, email=aa@aaaaa) 
+2021-04-12T08:29:35,018 INFO  [main]: ClientConsole                        - Validation exception! 
+2021-04-12T08:30:23,005 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-12T08:39:44,167 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-12T19:11:10,188 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-12T19:11:10,353 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=zzz, street=zzz, number=99, zipCode=999999) 
+2021-04-12T19:11:25,230 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-12T19:11:25,281 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=a, price=1.0, quantity=1, category=a) 
+2021-04-12T19:11:25,281 INFO  [main]: DishConsole                          - DishDto(super=ID: 5 - , name=a, price=3.0, quantity=4, category=a) 
+2021-04-12T19:11:36,259 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-12T19:12:56,850 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-12T19:13:37,780 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-12T19:14:43,014 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-12T19:15:55,855 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-12T19:19:39,895 INFO  [main]: ClientConsole                        - saveClient: client=Client(super=ID: 2 - , name=aa, age=20, address=1, email=aaa@aaaaa) 
+2021-04-12T19:19:40,036 INFO  [main]: ClientConsole                        - Validation exception! 
+2021-04-12T19:22:21,875 INFO  [main]: ClientConsole                        - saveClient: client=Client(super=ID: 2 - , name=a, age=20, address=1, email=aaaa@sswss) 
+2021-04-12T19:27:20,300 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-12T19:27:20,414 INFO  [main]: ClientConsole                        - There are no clients! 
+2021-04-12T19:27:38,350 INFO  [main]: ClientConsole                        - saveClient: client=Client(super=ID: 2 - , name=a, age=20, address=1, email=aaaa@aaaa) 
+2021-04-12T19:27:38,493 INFO  [main]: ClientConsole                        - Validation exception! 
+2021-04-12T19:27:44,372 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-12T19:27:44,379 INFO  [main]: ClientConsole                        - There are no clients! 
+2021-04-12T19:28:28,535 INFO  [main]: ClientConsole                        - saveClient: client=Client(super=ID: 2 - , name=20, age=20, address=1, email=aa@aaaaa.a) 
+2021-04-12T19:28:28,546 INFO  [main]: ClientConsole                        - Validation exception! 
+2021-04-12T19:31:59,861 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-12T19:31:59,973 INFO  [main]: ClientConsole                        - There are no clients! 
+2021-04-12T19:32:13,905 INFO  [main]: ClientConsole                        - saveClient: client=Client(super=ID: 1 - , name=a, age=20, address=1, email=aaa@aaaa) 
+2021-04-12T19:32:13,948 INFO  [main]: ClientConsole                        - Validation exception! 
+2021-04-12T19:34:58,458 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-12T19:34:58,502 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 1 - , name=AAaa, age=20, address=1, email=aaa@aaaaa) 
+2021-04-12T19:35:30,572 INFO  [main]: ClientConsole                        - saveClient: client=Client(super=ID: 3 - , name=Assd, age=22, address=1, email=aaa@aaaaa) 
+2021-04-12T19:35:30,581 INFO  [main]: ClientConsole                        - Validation exception! 
+2021-04-12T19:35:36,594 INFO  [main]: ClientConsole                        - deleteClient: id=1 
+2021-04-12T19:35:36,788 INFO  [main]: ClientConsole                        - deleteClient --- method finished 
+2021-04-12T19:35:43,622 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-12T19:35:43,633 INFO  [main]: ClientConsole                        - There are no clients! 
+2021-04-12T19:40:05,420 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-12T19:40:05,551 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 2 - , name=a, age=20, address=1, email=aaaa@aaaa) 
+2021-04-12T19:40:20,470 INFO  [main]: ClientConsole                        - saveClient: client=Client(super=ID: 3 - , name=aa, age=22, address=1, email=abc@deeffd) 
+2021-04-12T19:40:20,508 INFO  [main]: ClientConsole                        - Validation exception! 
+2021-04-12T19:42:01,725 INFO  [main]: ClientConsole                        - saveClient: client=Client(super=ID: 3 - , name=qqqqq, age=22, address=1, email=aa@aaaaaa) 
+2021-04-12T19:42:01,873 INFO  [main]: ClientConsole                        - Validation exception! 
+2021-04-12T19:45:33,030 INFO  [main]: ClientConsole                        - saveClient: client=Client(super=ID: 2 - , name=aaa, age=20, address=1, email=aaa@aaaaa) 
+2021-04-12T19:45:33,146 INFO  [main]: ClientConsole                        - Validation exception! 
+2021-04-12T19:46:26,638 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-12T19:46:26,767 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 2 - , name=a, age=20, address=1, email=aaaa@aaaa) 
+2021-04-12T19:46:40,686 INFO  [main]: ClientConsole                        - saveClient: client=Client(super=ID: 2 - , name=a, age=22, address=1, email=aaa@aaaaaa) 
+2021-04-12T19:46:40,843 INFO  [main]: ClientConsole                        - Client already exists 
+2021-04-12T19:47:02,760 INFO  [main]: ClientConsole                        - saveClient: client=Client(super=ID: 3 - , name=aaaa, age=22, address=1, email=aaa@aaaaaa) 
+2021-04-12T19:47:07,782 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-12T19:47:07,791 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 2 - , name=a, age=20, address=1, email=aaaa@aaaa) 
+2021-04-12T19:47:07,791 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 3 - , name=aaaa, age=22, address=1, email=aaa@aaaaaa) 
+2021-04-12T19:47:28,845 INFO  [main]: ClientConsole                        - updateClient: client=Client(super=ID: 2 - , name=qqqqqqqq, age=23, address=1, email=qqqq@qqqqq) 
+2021-04-12T19:47:34,867 INFO  [main]: ClientConsole                        - sortClients--- method entered 
+2021-04-12T19:47:34,922 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 3 - , name=aaaa, age=22, address=1, email=aaa@aaaaaa) 
+2021-04-12T19:47:34,922 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 2 - , name=qqqqqqqq, age=23, address=1, email=qqqq@qqqqq) 
+2021-04-12T19:58:42,787 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 3 - , name=aaaa, age=22, address=1, email=aaa@aaaaaa) 
+2021-04-12T19:59:02,621 INFO  [main]: ClientConsole                        - sortClients--- method entered 
+2021-04-12T19:59:02,636 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 3 - , name=aaaa, age=22, address=1, email=aaa@aaaaaa) 
+2021-04-12T19:59:02,636 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 2 - , name=qqqqqqqq, age=23, address=1, email=qqqq@qqqqq) 
+2021-04-12T20:10:00,980 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-12T20:10:00,994 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=zzz, street=zzz, number=99, zipCode=999999) 
+2021-04-12T20:10:07,013 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=zzz, street=zzz, number=99, zipCode=999999) 
+2021-04-13T16:54:11,185 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-13T16:54:11,325 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=zzz, street=zzz, number=99, zipCode=999999) 
+2021-04-13T16:54:27,232 INFO  [main]: AddressConsole                       - saveAddress: address=Address(super=ID: 2 - , city=qqq, street=qqqqq, number=2, zipCode=123456) 
+2021-04-13T16:54:31,244 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-13T16:54:31,258 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=zzz, street=zzz, number=99, zipCode=999999) 
+2021-04-13T16:54:31,258 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 2 - , city=qqq, street=qqqqq, number=2, zipCode=123456) 
+2021-04-13T16:54:40,277 INFO  [main]: AddressConsole                       - deleteAddress: id=2 
+2021-04-13T16:54:40,317 INFO  [main]: AddressConsole                       - deleteAddress --- method finished 
+2021-04-13T16:54:45,297 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-13T16:54:45,305 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=zzz, street=zzz, number=99, zipCode=999999) 
+2021-04-13T16:55:01,360 INFO  [main]: AddressConsole                       - updateAddress: address=Address(super=ID: 1 - , city=aaa, street=bbb, number=1, zipCode=111111) 
+2021-04-13T16:55:04,371 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-13T16:55:04,381 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=aaa, street=bbb, number=1, zipCode=111111) 
+2021-04-13T16:55:40,486 INFO  [main]: AddressConsole                       - saveAddress: address=Address(super=ID: 2 - , city=q, street=q, number=1, zipCode=111222) 
+2021-04-13T17:04:11,897 INFO  [main]: ClientConsole                        - getAllClients --- method entered 
+2021-04-13T17:04:12,018 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 3 - , name=aaaa, age=22, address=1, email=aaa@aaaaaa) 
+2021-04-13T17:04:12,019 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 2 - , name=qqqqqqqq, age=23, address=1, email=qqqq@qqqqq) 
+2021-04-13T17:04:12,019 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 10 - , name=b, age=19, address=1, email=bbb@aaaa) 
+2021-04-13T17:04:12,019 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 4 - , name=b, age=18, address=1, email=qqq@wqqqqq) 
+2021-04-13T17:29:21,752 INFO  [main]: ClientConsole                        - sortClients--- method entered 
+2021-04-13T17:29:21,936 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 3 - , name=aaaa, age=22, address=1, email=aaa@aaaaaa) 
+2021-04-13T17:29:21,936 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 10 - , name=b, age=19, address=1, email=bbb@aaaa) 
+2021-04-13T17:29:21,937 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 4 - , name=b, age=18, address=1, email=qqq@wqqqqq) 
+2021-04-13T17:29:21,937 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 2 - , name=qqqqqqqq, age=23, address=1, email=qqqq@qqqqq) 
+2021-04-13T17:29:44,829 INFO  [main]: ClientConsole                        - sortClients--- method entered 
+2021-04-13T17:29:44,837 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 3 - , name=aaaa, age=22, address=1, email=aaa@aaaaaa) 
+2021-04-13T17:29:44,837 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 4 - , name=b, age=18, address=1, email=aaa@wqqqqq) 
+2021-04-13T17:29:44,837 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 10 - , name=b, age=19, address=1, email=bbb@aaaa) 
+2021-04-13T17:29:44,837 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 2 - , name=qqqqqqqq, age=23, address=1, email=qqqq@qqqqq) 
+2021-04-13T17:35:14,511 INFO  [main]: ClientConsole                        - sortClients--- method entered 
+2021-04-13T17:35:16,626 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 3 - , name=aaaa, age=22, address=1, email=aaa@aaaaaa) 
+2021-04-13T17:35:16,626 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 4 - , name=b, age=18, address=1, email=aaa@wqqqqq) 
+2021-04-13T17:35:16,626 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 10 - , name=b, age=19, address=1, email=bbb@aaaa) 
+2021-04-13T17:35:16,627 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 2 - , name=qqqqqqqq, age=23, address=1, email=qqqq@qqqqq) 
+2021-04-13T17:35:22,537 INFO  [main]: ClientConsole                        - sortClients--- method entered 
+2021-04-13T17:38:58,762 INFO  [main]: ClientConsole                        - sortClients--- method entered 
+2021-04-13T17:39:00,926 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 2 - , name=qqqqqqqq, age=23, address=1, email=qqqq@qqqqq) 
+2021-04-13T17:39:00,926 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 10 - , name=b, age=19, address=1, email=bbb@aaaa) 
+2021-04-13T17:39:00,927 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 4 - , name=b, age=18, address=1, email=aaa@wqqqqq) 
+2021-04-13T17:39:00,927 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 3 - , name=aaaa, age=22, address=1, email=aaa@aaaaaa) 
+2021-04-13T17:46:14,476 INFO  [main]: ClientConsole                        - sortClients--- method entered 
+2021-04-13T17:46:16,641 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 3 - , name=aaaa, age=22, address=1, email=aaa@aaaaaa) 
+2021-04-13T17:46:16,642 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 4 - , name=b, age=18, address=1, email=aaa@wqqqqq) 
+2021-04-13T17:46:16,642 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 10 - , name=b, age=19, address=1, email=bbb@aaaa) 
+2021-04-13T17:46:16,642 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 2 - , name=qqqqqqqq, age=23, address=1, email=qqqq@qqqqq) 
+2021-04-13T17:46:29,526 INFO  [main]: ClientConsole                        - sortClients--- method entered 
+2021-04-13T17:46:31,552 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 2 - , name=qqqqqqqq, age=23, address=1, email=qqqq@qqqqq) 
+2021-04-13T17:46:31,552 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 10 - , name=b, age=19, address=1, email=bbb@aaaa) 
+2021-04-13T17:46:31,552 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 4 - , name=b, age=18, address=1, email=aaa@wqqqqq) 
+2021-04-13T17:46:31,553 INFO  [main]: ClientConsole                        - ClientDto(super=ID: 3 - , name=aaaa, age=22, address=1, email=aaa@aaaaaa) 

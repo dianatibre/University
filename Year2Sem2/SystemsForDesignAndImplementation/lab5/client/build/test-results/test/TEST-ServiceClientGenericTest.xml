@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ServiceClientGenericTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-23T13:12:08" hostname="DESKTOP-PU9UT93" time="0.008">
+  <properties/>
+  <testcase name="testAdd()" classname="ServiceClientGenericTest" time="0.001"/>
+  <testcase name="testGet()" classname="ServiceClientGenericTest" time="0.001"/>
+  <testcase name="testSort()" classname="ServiceClientGenericTest" time="0.001"/>
+  <testcase name="testDelete()" classname="ServiceClientGenericTest" time="0.001"/>
+  <testcase name="testFilter()" classname="ServiceClientGenericTest" time="0.001"/>
+  <testcase name="testUpdate()" classname="ServiceClientGenericTest" time="0.001"/>
+  <system-out><![CDATA[client - sent request: Message{header='updateRestaurant', body='Restaurant{id='1', name='name', rating=20, capacity=1, delivery=false}'}
+client - received response: Message{header='error', body='ro.ubb.socket.common.domain.validators.ValidatorException: Rating should be an integer from 0 to 5!
+'}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

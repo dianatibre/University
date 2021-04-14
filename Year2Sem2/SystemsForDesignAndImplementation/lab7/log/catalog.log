@@ -1,0 +1,920 @@
+2021-04-04T12:24:53,924 ERROR [main]: HikariPool                           - HikariPool-1 - Exception during pool initialization. 
+org.postgresql.util.PSQLException: FATAL: database "restaurantjpa" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2559) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:133) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:250) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.Driver.makeConnection(Driver.java:454) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.Driver.connect(Driver.java:256) ~[postgresql-42.2.5.jar:42.2.5]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365) ~[HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194) ~[HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:459) [HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:533) [HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:114) [HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81) [HikariCP-2.7.7.jar:?]
+	at lab7.config.JPAConfig.dataSource(JPAConfig.java:51) [main/:?]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$c267a267.CGLIB$dataSource$2(<generated>) [main/:?]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$c267a267$$FastClassBySpringCGLIB$$c4064026.invoke(<generated>) [main/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) [spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$c267a267.dataSource(<generated>) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:394) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:366) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$c267a267.dataSource(<generated>) [main/:?]
+	at lab7.config.JPAConfig.entityManagerFactory(JPAConfig.java:65) [main/:?]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$c267a267.CGLIB$entityManagerFactory$3(<generated>) [main/:?]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$c267a267$$FastClassBySpringCGLIB$$c4064026.invoke(<generated>) [main/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) [spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$c267a267.entityManagerFactory(<generated>) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:367) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:110) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:662) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:479) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:312) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:131) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1681) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1433) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:99) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.Main.main(Main.java:8) [main/:?]
+2021-04-04T12:24:53,970 WARN  [main]: AnnotationConfigApplicationContext   - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressService': Unsatisfied dependency expressed through field 'addressDbRepoI'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addressDbRepoI': Cannot create inner bean '(inner bean)#5cc5b667' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#5cc5b667': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in lab7.config.JPAConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.persistence.EntityManagerFactory]: Factory method 'entityManagerFactory' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in lab7.config.JPAConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: FATAL: database "restaurantjpa" does not exist 
+2021-04-04T12:34:40,555 ERROR [main]: HikariPool                           - HikariPool-1 - Exception during pool initialization. 
+org.postgresql.util.PSQLException: FATAL: database "restaurantjpa" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2559) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:133) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:250) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.Driver.makeConnection(Driver.java:454) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.Driver.connect(Driver.java:256) ~[postgresql-42.2.5.jar:42.2.5]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365) ~[HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194) ~[HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:459) [HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:533) [HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:114) [HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81) [HikariCP-2.7.7.jar:?]
+	at lab7.config.JPAConfig.dataSource(JPAConfig.java:51) [main/:?]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$c267a267.CGLIB$dataSource$1(<generated>) [main/:?]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$c267a267$$FastClassBySpringCGLIB$$c4064026.invoke(<generated>) [main/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) [spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$c267a267.dataSource(<generated>) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:394) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:366) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$c267a267.dataSource(<generated>) [main/:?]
+	at lab7.config.JPAConfig.entityManagerFactory(JPAConfig.java:65) [main/:?]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$c267a267.CGLIB$entityManagerFactory$2(<generated>) [main/:?]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$c267a267$$FastClassBySpringCGLIB$$c4064026.invoke(<generated>) [main/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) [spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$c267a267.entityManagerFactory(<generated>) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:367) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:110) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:662) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:479) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:312) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:131) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1681) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1433) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:99) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.Main.main(Main.java:8) [main/:?]
+2021-04-04T12:34:53,330 WARN  [main]: AnnotationConfigApplicationContext   - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressService': Unsatisfied dependency expressed through field 'addressDbRepoI'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addressDbRepoI': Cannot create inner bean '(inner bean)#758f4f03' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#758f4f03': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in lab7.config.JPAConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.persistence.EntityManagerFactory]: Factory method 'entityManagerFactory' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in lab7.config.JPAConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: FATAL: database "restaurantjpa" does not exist 
+2021-04-04T12:45:56,900 TRACE [main]: ClientService                        - get --- method entered 
+2021-04-04T12:45:57,591 TRACE [main]: ClientService                        - getAllClients: result=[] 
+2021-04-04T12:46:21,000 TRACE [main]: AddressService                       - get --- method entered 
+2021-04-04T12:46:21,340 TRACE [main]: AddressService                       - getAllClients: result=[] 
+2021-04-04T12:46:50,209 TRACE [main]: AddressService                       - get --- method entered 
+2021-04-04T12:46:50,209 TRACE [main]: AddressService                       - getAllClients: result=[] 
+2021-04-04T12:48:39,876 TRACE [main]: AddressService                       - add: address=Address{id='1', city='ss', street='dd', number=12, zipCode=123456} 
+2021-04-04T12:48:40,251 TRACE [main]: AddressService                       - add --- method finished 
+2021-04-04T12:48:44,869 TRACE [main]: AddressService                       - get --- method entered 
+2021-04-04T12:48:44,916 TRACE [main]: AddressService                       - getAllClients: result=[Address{id='1', city='ss', street='dd', number=12, zipCode=123456}] 
+2021-04-04T12:48:44,916 INFO  [main]: AddressService                       - Address{id='1', city='ss', street='dd', number=12, zipCode=123456} 
+2021-04-04T14:56:33,123 WARN  [main]: AnnotationConfigApplicationContext   - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'console': Unsatisfied dependency expressed through field 'orderServiceI'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'lab7.service.ServiceI<java.lang.Integer, lab7.domain.Order>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier("orderService")} 
+2021-04-04T15:05:08,305 WARN  [main]: ExceptionHandlerLoggedImpl           - GenerationTarget encountered exception accepting command : Error executing DDL "create table Order (id int4 not null, clientID int4, date timestamp, dishID int4, paymentType varchar(255), restaurantID int4, primary key (id))" via JDBC Statement 
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table Order (id int4 not null, clientID int4, date timestamp, dishID int4, paymentType varchar(255), restaurantID int4, primary key (id))" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:559) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:504) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:277) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:935) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.config.JPAConfig.entityManagerFactory(JPAConfig.java:66) [main/:?]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$87fe38b9.CGLIB$entityManagerFactory$1(<generated>) [main/:?]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$87fe38b9$$FastClassBySpringCGLIB$$ae0ee8be.invoke(<generated>) [main/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) [spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$87fe38b9.entityManagerFactory(<generated>) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:367) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:110) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:662) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:479) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:312) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:131) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1681) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1433) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:99) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.Main.main(Main.java:8) [main/:?]
+Caused by: org.postgresql.util.PSQLException: ERROR: syntax error at or near "Order"
+  Position: 14
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:266) ~[postgresql-42.2.5.jar:42.2.5]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-2.7.7.jar:?]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	... 73 more
+2021-04-04T15:07:44,462 WARN  [main]: ExceptionHandlerLoggedImpl           - GenerationTarget encountered exception accepting command : Error executing DDL "create table Order (id int4 not null, clientID int4, date timestamp, dishID int4, paymentType varchar(255), restaurantID int4, primary key (id))" via JDBC Statement 
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table Order (id int4 not null, clientID int4, date timestamp, dishID int4, paymentType varchar(255), restaurantID int4, primary key (id))" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:559) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:504) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:277) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:935) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.config.JPAConfig.entityManagerFactory(JPAConfig.java:66) [main/:?]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$87fe38b9.CGLIB$entityManagerFactory$3(<generated>) [main/:?]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$87fe38b9$$FastClassBySpringCGLIB$$ae0ee8be.invoke(<generated>) [main/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) [spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$87fe38b9.entityManagerFactory(<generated>) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:367) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:110) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:662) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:479) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:312) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:131) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1681) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1433) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:99) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.Main.main(Main.java:8) [main/:?]
+Caused by: org.postgresql.util.PSQLException: ERROR: syntax error at or near "Order"
+  Position: 14
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:266) ~[postgresql-42.2.5.jar:42.2.5]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-2.7.7.jar:?]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	... 73 more
+2021-04-04T15:14:18,340 WARN  [main]: ExceptionHandlerLoggedImpl           - GenerationTarget encountered exception accepting command : Error executing DDL "create table Order (id int4 not null, clientID int4, date timestamp, dishID int4, paymentType varchar(255), restaurantID int4, primary key (id))" via JDBC Statement 
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table Order (id int4 not null, clientID int4, date timestamp, dishID int4, paymentType varchar(255), restaurantID int4, primary key (id))" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:559) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:504) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:277) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:935) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.config.JPAConfig.entityManagerFactory(JPAConfig.java:66) [main/:?]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$87fe38b9.CGLIB$entityManagerFactory$2(<generated>) [main/:?]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$87fe38b9$$FastClassBySpringCGLIB$$ae0ee8be.invoke(<generated>) [main/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) [spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$87fe38b9.entityManagerFactory(<generated>) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:367) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:110) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:662) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:479) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:312) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:131) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1681) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1433) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:99) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.Main.main(Main.java:8) [main/:?]
+Caused by: org.postgresql.util.PSQLException: ERROR: syntax error at or near "Order"
+  Position: 14
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:266) ~[postgresql-42.2.5.jar:42.2.5]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-2.7.7.jar:?]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	... 73 more
+2021-04-04T15:39:10,627 WARN  [main]: ExceptionHandlerLoggedImpl           - GenerationTarget encountered exception accepting command : Error executing DDL "create table Order (id int4 not null, clientID int4, date timestamp, dishID int4, paymentType varchar(255), restaurantID int4, primary key (id))" via JDBC Statement 
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table Order (id int4 not null, clientID int4, date timestamp, dishID int4, paymentType varchar(255), restaurantID int4, primary key (id))" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:559) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:504) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:277) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:935) [hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) [spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.config.JPAConfig.entityManagerFactory(JPAConfig.java:66) [main/:?]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$87fe38b9.CGLIB$entityManagerFactory$2(<generated>) [main/:?]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$87fe38b9$$FastClassBySpringCGLIB$$ae0ee8be.invoke(<generated>) [main/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) [spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.config.JPAConfig$$EnhancerBySpringCGLIB$$87fe38b9.entityManagerFactory(<generated>) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:367) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:110) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:662) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:479) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:312) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:131) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1681) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1433) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:99) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at lab7.Main.main(Main.java:8) [main/:?]
+Caused by: org.postgresql.util.PSQLException: ERROR: syntax error at or near "Order"
+  Position: 14
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:266) ~[postgresql-42.2.5.jar:42.2.5]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-2.7.7.jar:?]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.4.2.Final.jar:5.4.2.Final]
+	... 73 more
+2021-04-04T15:53:30,966 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T15:53:31,622 TRACE [main]: OrderService                         - getAllOrders: result=[] 
+2021-04-04T15:55:12,280 INFO  [main]: ClientService                        - Age must be a greater or equal than 16!
+ 
+2021-04-04T15:55:16,342 TRACE [main]: ClientService                        - get --- method entered 
+2021-04-04T15:55:16,342 TRACE [main]: ClientService                        - getAllClients: result=[] 
+2021-04-04T15:55:45,739 TRACE [main]: ClientService                        - add: clientClient{id='1'name='fff', age=20, address='1', email='ana@gmail.com'} 
+2021-04-04T15:55:46,082 TRACE [main]: ClientService                        - add --- method finished 
+2021-04-04T15:55:49,800 TRACE [main]: ClientService                        - get --- method entered 
+2021-04-04T15:55:49,800 TRACE [main]: ClientService                        - getAllClients: result=[Client{id='1'name='fff', age=20, address='1', email='ana@gmail.com'}] 
+2021-04-04T15:55:49,800 INFO  [main]: ClientService                        - Client{id='1'name='fff', age=20, address='1', email='ana@gmail.com'} 
+2021-04-04T15:56:37,491 INFO  [main]: ClientService                        - Date field cannot be empty and should contain a date after 01/01/2019!
+ 
+2021-04-04T15:58:45,979 INFO  [main]: ClientService                        - Date field cannot be empty and should contain a date after 01/01/2019!
+ 
+2021-04-04T15:59:23,509 TRACE [main]: ClientService                        - get --- method entered 
+2021-04-04T15:59:23,524 TRACE [main]: ClientService                        - getAllClients: result=[Client{id='1'name='fff', age=20, address='1', email='ana@gmail.com'}] 
+2021-04-04T15:59:23,540 INFO  [main]: ClientService                        - Client{id='1'name='fff', age=20, address='1', email='ana@gmail.com'} 
+2021-04-04T16:00:09,047 INFO  [main]: OrderService                         - Can't have a null Order! 
+2021-04-04T16:00:49,634 INFO  [main]: ClientService                        - Date field cannot be empty and should contain a date after 01/01/2019!
+ 
+2021-04-04T16:02:25,274 TRACE [main]: OrderService                         - add: orderOrder{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=Mon Jan 13 00:00:00 EET 2020} 
+2021-04-04T16:02:25,571 TRACE [main]: OrderService                         - add --- method finished 
+2021-04-04T16:02:38,346 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T16:02:38,737 TRACE [main]: OrderService                         - getAllOrders: result=[Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-01-13 00:00:00.0}] 
+2021-04-04T16:02:38,737 INFO  [main]: OrderService                         - Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-01-13 00:00:00.0} 
+2021-04-04T16:03:03,707 TRACE [main]: OrderService                         - add: orderOrder{id=1, restaurantID=1, clientID=2, dishID=1, paymentType='cash', date=Thu Jan 02 00:00:00 EET 2020} 
+2021-04-04T16:03:03,707 INFO  [main]: OrderService                         - Order already exists or inexistent restaurantID/dishID/clientID! 
+2021-04-04T16:03:37,193 TRACE [main]: OrderService                         - update: order=Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=Sun May 05 00:00:00 EEST 2019} 
+2021-04-04T16:03:37,193 DEBUG [main]: OrderService                         - updateOrder: order=Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=Sun May 05 00:00:00 EEST 2019} 
+2021-04-04T16:03:37,193 TRACE [main]: OrderService                         - upd --- method finished 
+2021-04-04T16:03:41,254 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T16:03:41,254 TRACE [main]: OrderService                         - getAllOrders: result=[Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2019-05-05 00:00:00.0}] 
+2021-04-04T16:03:41,254 INFO  [main]: OrderService                         - Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2019-05-05 00:00:00.0} 
+2021-04-04T16:04:01,556 TRACE [main]: OrderService                         - add: orderOrder{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=Wed Mar 04 00:00:00 EET 2020} 
+2021-04-04T16:04:01,556 TRACE [main]: OrderService                         - add --- method finished 
+2021-04-04T16:04:01,556 INFO  [main]: OrderService                         - Order already exists or inexistent restaurantID/dishID/clientID! 
+2021-04-04T16:04:03,587 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T16:04:03,587 TRACE [main]: OrderService                         - getAllOrders: result=[Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2019-05-05 00:00:00.0}] 
+2021-04-04T16:04:03,587 INFO  [main]: OrderService                         - Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2019-05-05 00:00:00.0} 
+2021-04-04T16:04:47,237 TRACE [main]: OrderService                         - add: orderOrder{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=Tue Apr 28 00:00:00 EEST 2020} 
+2021-04-04T16:04:47,253 TRACE [main]: OrderService                         - add --- method finished 
+2021-04-04T16:04:51,299 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T16:04:51,299 TRACE [main]: OrderService                         - getAllOrders: result=[Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2019-05-05 00:00:00.0}, Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-04-28 00:00:00.0}] 
+2021-04-04T16:04:51,299 INFO  [main]: OrderService                         - Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2019-05-05 00:00:00.0} 
+2021-04-04T16:04:51,299 INFO  [main]: OrderService                         - Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-04-28 00:00:00.0} 
+2021-04-04T16:05:37,989 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T16:05:37,989 TRACE [main]: OrderService                         - getAllOrders: result=[Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2019-05-05 00:00:00.0}, Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-04-28 00:00:00.0}] 
+2021-04-04T16:05:37,989 INFO  [main]: OrderService                         - Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2019-05-05 00:00:00.0} 
+2021-04-04T16:05:37,989 INFO  [main]: OrderService                         - Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-04-28 00:00:00.0} 
+2021-04-04T16:05:47,128 TRACE [main]: OrderService                         - delete: id=2 
+2021-04-04T16:05:47,175 TRACE [main]: OrderService                         - delete --- method finished 
+2021-04-04T16:05:50,174 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T16:05:50,174 TRACE [main]: OrderService                         - getAllOrders: result=[Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-04-28 00:00:00.0}] 
+2021-04-04T16:05:50,174 INFO  [main]: OrderService                         - Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-04-28 00:00:00.0} 
+2021-04-04T16:08:25,335 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T16:08:25,507 TRACE [main]: OrderService                         - getAllOrders: result=[Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-04-28 00:00:00.0}] 
+2021-04-04T16:08:25,522 INFO  [main]: OrderService                         - Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-04-28 00:00:00.0} 
+2021-04-04T16:08:52,778 TRACE [main]: OrderService                         - add: orderOrder{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=Sun Feb 02 00:00:00 EET 2020} 
+2021-04-04T16:08:52,903 TRACE [main]: OrderService                         - add --- method finished 
+2021-04-04T16:08:54,750 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T16:08:54,750 TRACE [main]: OrderService                         - getAllOrders: result=[Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-04-28 00:00:00.0}, Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2020-02-02 00:00:00.0}] 
+2021-04-04T16:08:54,750 INFO  [main]: OrderService                         - Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-04-28 00:00:00.0} 
+2021-04-04T16:08:54,750 INFO  [main]: OrderService                         - Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2020-02-02 00:00:00.0} 
+2021-04-04T16:18:31,163 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T16:18:31,897 TRACE [main]: OrderService                         - getAllOrders: result=[Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-04-28 00:00:00.0}, Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2020-02-02 00:00:00.0}] 
+2021-04-04T16:18:31,897 INFO  [main]: OrderService                         - Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-04-28 00:00:00.0} 
+2021-04-04T16:18:31,897 INFO  [main]: OrderService                         - Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2020-02-02 00:00:00.0} 
+2021-04-04T16:19:14,801 TRACE [main]: OrderService                         - add: orderOrder{id=3, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=Tue Mar 03 00:00:00 EET 2020} 
+2021-04-04T16:19:14,926 TRACE [main]: OrderService                         - add --- method finished 
+2021-04-04T16:19:18,803 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T16:19:18,803 TRACE [main]: OrderService                         - getAllOrders: result=[Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-04-28 00:00:00.0}, Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2020-02-02 00:00:00.0}, Order{id=3, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2020-03-03 00:00:00.0}] 
+2021-04-04T16:19:18,803 INFO  [main]: OrderService                         - Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-04-28 00:00:00.0} 
+2021-04-04T16:19:18,803 INFO  [main]: OrderService                         - Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2020-02-02 00:00:00.0} 
+2021-04-04T16:19:18,803 INFO  [main]: OrderService                         - Order{id=3, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2020-03-03 00:00:00.0} 
+2021-04-04T16:19:39,070 TRACE [main]: OrderService                         - delete: id=3 
+2021-04-04T16:19:39,241 TRACE [main]: OrderService                         - delete --- method finished 
+2021-04-04T16:19:41,100 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T16:19:41,132 TRACE [main]: OrderService                         - getAllOrders: result=[Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-04-28 00:00:00.0}, Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2020-02-02 00:00:00.0}] 
+2021-04-04T16:19:41,132 INFO  [main]: OrderService                         - Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2020-04-28 00:00:00.0} 
+2021-04-04T16:19:41,132 INFO  [main]: OrderService                         - Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='card', date=2020-02-02 00:00:00.0} 
+2021-04-04T21:00:56,709 WARN  [main]: AnnotationConfigApplicationContext   - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dishService': Unsatisfied dependency expressed through field 'dishDbRepoI'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dishDbRepoI': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class lab7.domain.Dish 
+2021-04-04T21:02:46,058 WARN  [main]: AnnotationConfigApplicationContext   - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dishService': Unsatisfied dependency expressed through field 'dishValidator'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'lab7.domain.validators.DishValidator' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)} 
+2021-04-04T21:03:20,365 TRACE [main]: DishService                          - get --- method entered 
+2021-04-04T21:03:20,620 TRACE [main]: DishService                          - getAllDishes: result=[] 
+2021-04-04T21:03:30,393 TRACE [main]: DishService                          - add: dish=Dish{id='1'name='a', price=1.0, quantity=1, category='a'} 
+2021-04-04T21:03:30,527 TRACE [main]: DishService                          - add --- method finished 
+2021-04-04T21:03:35,396 TRACE [main]: DishService                          - get --- method entered 
+2021-04-04T21:03:35,405 TRACE [main]: DishService                          - getAllDishes: result=[Dish{id='1'name='a', price=1.0, quantity=1, category='a'}] 
+2021-04-04T21:03:35,405 INFO  [main]: AddressService                       - Dish{id='1'name='a', price=1.0, quantity=1, category='a'} 
+2021-04-04T21:03:57,432 TRACE [main]: RestaurantService                    - add: restaurant=Restaurant{id='1', name='1', rating=1, capacity=1, delivery=false} 
+2021-04-04T21:03:57,482 TRACE [main]: RestaurantService                    - add --- method finished 
+2021-04-04T21:04:02,433 TRACE [main]: RestaurantService                    - get --- method entered 
+2021-04-04T21:04:02,439 TRACE [main]: RestaurantService                    - getAllRestaurants: result=[Restaurant{id='1', name='1', rating=1, capacity=1, delivery=false}] 
+2021-04-04T21:04:02,440 INFO  [main]: AddressService                       - Restaurant{id='1', name='1', rating=1, capacity=1, delivery=false} 
+2021-04-04T21:04:11,442 TRACE [main]: RestaurantService                    - delete: id=1 
+2021-04-04T21:04:11,541 TRACE [main]: RestaurantService                    - delete --- method finished 
+2021-04-04T21:04:15,450 TRACE [main]: RestaurantService                    - get --- method entered 
+2021-04-04T21:04:15,455 TRACE [main]: RestaurantService                    - getAllRestaurants: result=[] 
+2021-04-04T23:03:48,109 TRACE [main]: ClientService                        - add: clientClient{id='1'name='a', age=23, address='1', email='a@aaaa'} 
+2021-04-04T23:03:48,187 INFO  [main]: ClientService                        - Client already exists or innexistent addressId! 
+2021-04-04T23:04:02,322 TRACE [main]: AddressService                       - add: address=Address{id='1', city='a', street='a', number=1, zipCode=123456} 
+2021-04-04T23:04:02,358 TRACE [main]: AddressService                       - add --- method finished 
+2021-04-04T23:04:15,194 TRACE [main]: ClientService                        - add: clientClient{id='1'name='a', age=23, address='1', email='a@aaaa'} 
+2021-04-04T23:04:15,219 TRACE [main]: ClientService                        - add --- method finished 
+2021-04-04T23:04:19,697 TRACE [main]: ClientService                        - get --- method entered 
+2021-04-04T23:04:19,816 TRACE [main]: ClientService                        - getAllClients: result=[Client{id='1'name='a', age=23, address='1', email='a@aaaa'}] 
+2021-04-04T23:04:19,817 INFO  [main]: ClientService                        - Client{id='1'name='a', age=23, address='1', email='a@aaaa'} 
+2021-04-04T23:05:00,325 TRACE [main]: ClientService                        - delete: id=3 
+2021-04-04T23:05:00,351 INFO  [main]: ClientService                        - No Client with this ID was found! 
+2021-04-04T23:05:11,350 TRACE [main]: ClientService                        - update: client=Client{id='1'name='a', age=23, address='4', email='a@aaaa'} 
+2021-04-04T23:05:11,363 INFO  [main]: ClientService                        - Client with this ID doesn't exist or nonexistent addressId! 
+2021-04-04T23:05:35,398 TRACE [main]: ClientService                        - update: client=Client{id='1'name='q', age=24, address='1', email='a@qqqqq'} 
+2021-04-04T23:05:35,410 DEBUG [main]: ClientService                        - updateClient: client=Client{id='1'name='q', age=24, address='1', email='a@qqqqq'} 
+2021-04-04T23:05:35,411 TRACE [main]: ClientService                        - upd --- method finished 
+2021-04-04T23:05:51,446 TRACE [main]: ClientService                        - add: clientClient{id='2'name='e', age=34, address='1', email='W@qqqqq'} 
+2021-04-04T23:05:51,484 TRACE [main]: ClientService                        - add --- method finished 
+2021-04-04T23:05:56,462 TRACE [main]: ClientService                        - delete: id=1 
+2021-04-04T23:05:56,482 TRACE [main]: ClientService                        - delete --- method finished 
+2021-04-04T23:06:28,550 TRACE [main]: DishService                          - add: dish=Dish{id='1'name='a', price=2.0, quantity=2, category='a'} 
+2021-04-04T23:06:28,575 TRACE [main]: DishService                          - add --- method finished 
+2021-04-04T23:06:37,552 TRACE [main]: DishService                          - add: dish=Dish{id='1'name='a', price=1.0, quantity=1, category='1'} 
+2021-04-04T23:06:37,564 TRACE [main]: DishService                          - add --- method finished 
+2021-04-04T23:06:37,564 INFO  [main]: DishService                          - Dish already exists! 
+2021-04-04T23:06:49,583 INFO  [main]: DishService                          - Dish name field cannot be empty!
+ 
+2021-04-04T23:06:54,595 TRACE [main]: DishService                          - get --- method entered 
+2021-04-04T23:06:54,611 TRACE [main]: DishService                          - getAllDishes: result=[Dish{id='1'name='a', price=2.0, quantity=2, category='a'}] 
+2021-04-04T23:06:54,612 INFO  [main]: AddressService                       - Dish{id='1'name='a', price=2.0, quantity=2, category='a'} 
+2021-04-04T23:07:10,635 TRACE [main]: DishService                          - delete: id=3 
+2021-04-04T23:07:10,646 INFO  [main]: DishService                          - No dish with this ID was found! 
+2021-04-04T23:07:22,654 TRACE [main]: DishService                          - update: dish=Dish{id='2'name='a', price=2.0, quantity=2, category='2'} 
+2021-04-04T23:07:22,666 TRACE [main]: DishService                          - upd --- method finished 
+2021-04-04T23:07:22,667 INFO  [main]: DishService                          - Dish with this ID doesn't exist! 
+2021-04-04T23:08:21,822 TRACE [main]: DishService                          - update: dish=Dish{id='1'name='e', price=4.0, quantity=5, category='e'} 
+2021-04-04T23:08:21,838 DEBUG [main]: DishService                          - updatedDish: dish=Dish{id='1'name='e', price=4.0, quantity=5, category='e'} 
+2021-04-04T23:08:21,838 TRACE [main]: DishService                          - upd --- method finished 
+2021-04-04T23:10:38,744 TRACE [main]: DishService                          - update: dish=Dish{id='1'name='e', price=3.0, quantity=3, category='q'} 
+2021-04-04T23:10:38,797 DEBUG [main]: DishService                          - updatedDish: dish=Dish{id='1'name='e', price=3.0, quantity=3, category='q'} 
+2021-04-04T23:10:38,798 TRACE [main]: DishService                          - upd --- method finished 
+2021-04-04T23:10:44,724 TRACE [main]: DishService                          - get --- method entered 
+2021-04-04T23:10:44,859 TRACE [main]: DishService                          - getAllDishes: result=[Dish{id='1'name='e', price=3.0, quantity=3, category='q'}] 
+2021-04-04T23:10:44,861 INFO  [main]: AddressService                       - Dish{id='1'name='e', price=3.0, quantity=3, category='q'} 
+2021-04-04T23:10:59,764 TRACE [main]: DishService                          - delete: id=3 
+2021-04-04T23:10:59,774 INFO  [main]: DishService                          - No dish with this ID was found! 
+2021-04-04T23:11:11,803 TRACE [main]: DishService                          - add: dish=Dish{id='2'name='r', price=5.0, quantity=5, category='w'} 
+2021-04-04T23:11:11,832 TRACE [main]: DishService                          - add --- method finished 
+2021-04-04T23:11:15,813 TRACE [main]: DishService                          - delete: id=2 
+2021-04-04T23:11:15,828 TRACE [main]: DishService                          - delete --- method finished 
+2021-04-04T23:12:04,186 TRACE [main]: RestaurantService                    - get --- method entered 
+2021-04-04T23:12:04,337 TRACE [main]: RestaurantService                    - getAllRestaurants: result=[] 
+2021-04-04T23:12:14,210 TRACE [main]: RestaurantService                    - add: restaurant=Restaurant{id='1', name='a', rating=2, capacity=2, delivery=false} 
+2021-04-04T23:12:14,268 TRACE [main]: RestaurantService                    - add --- method finished 
+2021-04-04T23:12:28,233 TRACE [main]: RestaurantService                    - add: restaurant=Restaurant{id='1', name='q', rating=1, capacity=1, delivery=false} 
+2021-04-04T23:12:28,246 TRACE [main]: RestaurantService                    - add --- method finished 
+2021-04-04T23:12:28,247 INFO  [main]: RestaurantService                    - Restaurant already exists! 
+2021-04-04T23:12:32,239 TRACE [main]: RestaurantService                    - get --- method entered 
+2021-04-04T23:12:32,244 TRACE [main]: RestaurantService                    - getAllRestaurants: result=[Restaurant{id='1', name='a', rating=2, capacity=2, delivery=false}] 
+2021-04-04T23:12:32,244 INFO  [main]: AddressService                       - Restaurant{id='1', name='a', rating=2, capacity=2, delivery=false} 
+2021-04-04T23:13:16,370 TRACE [main]: RestaurantService                    - delete: id=3 
+2021-04-04T23:13:16,384 INFO  [main]: RestaurantService                    - No restaurant with this ID was found! 
+2021-04-04T23:14:16,533 TRACE [main]: RestaurantService                    - add: restaurant=Restaurant{id='2', name='w', rating=3, capacity=3, delivery=false} 
+2021-04-04T23:14:16,550 TRACE [main]: RestaurantService                    - add --- method finished 
+2021-04-04T23:14:37,577 TRACE [main]: RestaurantService                    - update: restaurant=Restaurant{id='2', name='r', rating=5, capacity=5, delivery=false} 
+2021-04-04T23:14:37,587 DEBUG [main]: RestaurantService                    - updatedRestaurant: restaurant=Restaurant{id='2', name='r', rating=5, capacity=5, delivery=false} 
+2021-04-04T23:14:37,587 TRACE [main]: RestaurantService                    - upd --- method finished 
+2021-04-04T23:14:50,612 TRACE [main]: RestaurantService                    - update: restaurant=Restaurant{id='4', name='e', rating=4, capacity=4, delivery=false} 
+2021-04-04T23:14:50,617 TRACE [main]: RestaurantService                    - upd --- method finished 
+2021-04-04T23:14:50,618 INFO  [main]: RestaurantService                    - Restaurant with this ID doesn't exist! 
+2021-04-04T23:14:57,628 TRACE [main]: RestaurantService                    - delete: id=2 
+2021-04-04T23:14:57,645 TRACE [main]: RestaurantService                    - delete --- method finished 
+2021-04-04T23:15:14,670 INFO  [main]: RestaurantService                    - Id must be a positive integer value!
+ 
+2021-04-04T23:15:26,689 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T23:15:26,701 TRACE [main]: OrderService                         - getAllOrders: result=[] 
+2021-04-04T23:16:07,372 TRACE [main]: OrderService                         - add: orderOrder{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='a', date=Sat Oct 10 00:00:00 EEST 2020} 
+2021-04-04T23:16:07,454 TRACE [main]: OrderService                         - add --- method finished 
+2021-04-04T23:16:31,384 TRACE [main]: OrderService                         - add: orderOrder{id=1, restaurantID=1, clientID=2, dishID=1, paymentType='a', date=Sat Oct 10 00:00:00 EEST 2020} 
+2021-04-04T23:16:31,428 TRACE [main]: OrderService                         - add --- method finished 
+2021-04-04T23:16:45,409 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T23:16:45,527 TRACE [main]: OrderService                         - getAllOrders: result=[Order{id=1, restaurantID=1, clientID=2, dishID=1, paymentType='a', date=2020-10-10 00:00:00.0}] 
+2021-04-04T23:16:45,529 INFO  [main]: OrderService                         - Order{id=1, restaurantID=1, clientID=2, dishID=1, paymentType='a', date=2020-10-10 00:00:00.0} 
+2021-04-04T23:17:08,462 TRACE [main]: OrderService                         - delete: id=3 
+2021-04-04T23:17:08,478 INFO  [main]: ClientService                        - No Order with this ID was found! 
+2021-04-04T23:20:10,066 TRACE [main]: OrderService                         - add: orderOrder{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='a', date=Sat Oct 10 00:00:00 EEST 2020} 
+2021-04-04T23:20:10,147 INFO  [main]: OrderService                         - Order already exists or inexistent restaurantID/dishID/clientID! 
+2021-04-04T23:20:15,040 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T23:20:15,176 TRACE [main]: OrderService                         - getAllOrders: result=[Order{id=1, restaurantID=1, clientID=2, dishID=1, paymentType='a', date=2020-10-10 00:00:00.0}] 
+2021-04-04T23:20:15,177 INFO  [main]: OrderService                         - Order{id=1, restaurantID=1, clientID=2, dishID=1, paymentType='a', date=2020-10-10 00:00:00.0} 
+2021-04-04T23:20:25,055 TRACE [main]: OrderService                         - delete: id=3 
+2021-04-04T23:20:25,069 INFO  [main]: ClientService                        - No Order with this ID was found! 
+2021-04-04T23:20:41,093 TRACE [main]: OrderService                         - update: order=Order{id=2, restaurantID=1, clientID=1, dishID=1, paymentType='a', date=Sat Oct 10 00:00:00 EEST 2020} 
+2021-04-04T23:20:41,108 INFO  [main]: ClientService                        - Order with this ID doesn't exist or nonexistent restaurantID/dishID/clientID! 
+2021-04-04T23:21:07,142 TRACE [main]: OrderService                         - update: order=Order{id=2, restaurantID=1, clientID=2, dishID=1, paymentType='a', date=Sat Oct 10 00:00:00 EEST 2020} 
+2021-04-04T23:21:07,155 TRACE [main]: OrderService                         - upd --- method finished 
+2021-04-04T23:21:07,158 INFO  [main]: ClientService                        - Order with this ID doesn't exist or nonexistent restaurantID/dishID/clientID! 
+2021-04-04T23:21:22,189 TRACE [main]: OrderService                         - update: order=Order{id=1, restaurantID=1, clientID=2, dishID=1, paymentType='e', date=Sun Oct 10 00:00:00 EEST 2021} 
+2021-04-04T23:21:22,201 DEBUG [main]: OrderService                         - updateOrder: order=Order{id=1, restaurantID=1, clientID=2, dishID=1, paymentType='e', date=Sun Oct 10 00:00:00 EEST 2021} 
+2021-04-04T23:21:22,201 TRACE [main]: OrderService                         - upd --- method finished 
+2021-04-04T23:21:26,196 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T23:21:26,202 TRACE [main]: OrderService                         - getAllOrders: result=[Order{id=1, restaurantID=1, clientID=2, dishID=1, paymentType='e', date=2021-10-10 00:00:00.0}] 
+2021-04-04T23:21:26,202 INFO  [main]: OrderService                         - Order{id=1, restaurantID=1, clientID=2, dishID=1, paymentType='e', date=2021-10-10 00:00:00.0} 
+2021-04-04T23:21:45,238 TRACE [main]: OrderService                         - add: orderOrder{id=1, restaurantID=2, clientID=1, dishID=1, paymentType='z', date=Wed Sep 09 00:00:00 EEST 2020} 
+2021-04-04T23:21:45,260 INFO  [main]: OrderService                         - Order already exists or inexistent restaurantID/dishID/clientID! 
+2021-04-04T23:22:01,285 TRACE [main]: OrderService                         - add: orderOrder{id=2, restaurantID=1, clientID=2, dishID=1, paymentType='q', date=Sun Oct 10 00:00:00 EEST 2021} 
+2021-04-04T23:22:01,321 TRACE [main]: OrderService                         - add --- method finished 
+2021-04-04T23:22:07,301 TRACE [main]: OrderService                         - delete: id=2 
+2021-04-04T23:22:07,319 TRACE [main]: OrderService                         - delete --- method finished 
+2021-04-04T23:22:12,313 TRACE [main]: OrderService                         - delete: id=2 
+2021-04-04T23:22:12,321 INFO  [main]: ClientService                        - No Order with this ID was found! 
+2021-04-04T23:22:12,322 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-04T23:22:12,327 TRACE [main]: OrderService                         - getAllOrders: result=[Order{id=1, restaurantID=1, clientID=2, dishID=1, paymentType='e', date=2021-10-10 00:00:00.0}] 
+2021-04-04T23:22:12,327 INFO  [main]: OrderService                         - Order{id=1, restaurantID=1, clientID=2, dishID=1, paymentType='e', date=2021-10-10 00:00:00.0} 
+2021-04-04T23:45:29,987 TRACE [main]: AddressService                       - get --- method entered 
+2021-04-04T23:45:30,486 TRACE [main]: AddressService                       - getAllAddresses: result=[Address{id='1', city='a', street='a', number=1, zipCode=123456}] 
+2021-04-04T23:45:30,489 INFO  [main]: AddressService                       - Address{id='1', city='a', street='a', number=1, zipCode=123456} 
+2021-04-04T23:45:34,065 TRACE [main]: AddressService                       - delete: id=1 
+2021-04-04T23:45:34,077 TRACE [main]: AddressService                       - delete --- method finished 
+2021-04-04T23:48:25,820 TRACE [main]: AddressService                       - add: address=Address{id='1', city='a', street='1', number=1, zipCode=123456} 
+2021-04-04T23:48:25,972 TRACE [main]: AddressService                       - add --- method finished 
+2021-04-04T23:48:38,809 TRACE [main]: AddressService                       - add: address=Address{id='1', city='a', street='a', number=1, zipCode=111111} 
+2021-04-04T23:48:38,825 TRACE [main]: AddressService                       - add --- method finished 
+2021-04-04T23:48:38,825 INFO  [main]: AddressService                       - Address already exists! 
+2021-04-04T23:48:43,824 TRACE [main]: ClientService                        - get --- method entered 
+2021-04-04T23:48:44,122 TRACE [main]: ClientService                        - getAllClients: result=[] 
+2021-04-04T23:48:56,868 TRACE [main]: ClientService                        - add: clientClient{id='2'name='e', age=23, address='1', email='a@aaaaaa'} 
+2021-04-04T23:48:56,882 TRACE [main]: ClientService                        - add --- method finished 
+2021-04-04T23:49:09,942 TRACE [main]: AddressService                       - delete: id=1 
+2021-04-04T23:49:09,953 TRACE [main]: AddressService                       - delete --- method finished 
+2021-04-04T23:49:30,936 TRACE [main]: AddressService                       - add: address=Address{id='1', city='a', street='a', number=1, zipCode=123456} 
+2021-04-04T23:49:30,950 TRACE [main]: AddressService                       - add --- method finished 
+2021-04-04T23:49:41,963 TRACE [main]: AddressService                       - add: address=Address{id='2', city='2', street='23', number=23, zipCode=123456} 
+2021-04-04T23:49:41,975 TRACE [main]: AddressService                       - add --- method finished 
+2021-04-04T23:49:56,003 TRACE [main]: ClientService                        - add: clientClient{id='1'name='a', age=23, address='1', email='a@aaaa'} 
+2021-04-04T23:49:56,022 TRACE [main]: ClientService                        - add --- method finished 
+2021-04-04T23:50:12,058 TRACE [main]: AddressService                       - delete: id=2 
+2021-04-04T23:50:12,067 TRACE [main]: AddressService                       - delete --- method finished 
+2021-04-04T23:50:23,090 TRACE [main]: AddressService                       - delete: id=1 
+2021-04-04T23:50:23,097 TRACE [main]: AddressService                       - delete --- method finished 
+2021-04-04T23:50:39,103 TRACE [main]: RestaurantService                    - delete: id=1 
+2021-04-04T23:50:39,115 TRACE [main]: RestaurantService                    - delete --- method finished 
+2021-04-04T23:50:49,133 TRACE [main]: DishService                          - delete: id=1 
+2021-04-04T23:50:49,154 TRACE [main]: DishService                          - delete --- method finished 
+2021-04-05T09:01:38,524 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-05T09:01:38,725 TRACE [main]: OrderService                         - getAllOrders: result=[] 
+2021-04-05T09:01:50,620 INFO  [main]: OrderService                         - Can't have a null Order! 
+2021-04-05T09:02:09,983 TRACE [main]: OrderService                         - add: orderOrder{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='1', date=Fri Jan 01 00:00:00 EET 2021} 
+2021-04-05T09:02:10,107 INFO  [main]: OrderService                         - Order already exists or inexistent restaurantID/dishID/clientID! 
+2021-04-05T09:02:27,152 INFO  [main]: ClientService                        - Age must be a greater or equal than 16!
+ 
+2021-04-05T09:02:45,200 TRACE [main]: AddressService                       - add: address=Address{id='1', city='abc', street='def', number=1, zipCode=111111} 
+2021-04-05T09:02:45,318 TRACE [main]: AddressService                       - add --- method finished 
+2021-04-05T09:02:51,011 TRACE [main]: AddressService                       - get --- method entered 
+2021-04-05T09:02:51,018 TRACE [main]: AddressService                       - getAllAddresses: result=[Address{id='1', city='abc', street='def', number=1, zipCode=111111}] 
+2021-04-05T09:02:51,020 INFO  [main]: AddressService                       - Address{id='1', city='abc', street='def', number=1, zipCode=111111} 
+2021-04-05T09:03:09,270 TRACE [main]: ClientService                        - add: clientClient{id='1'name='a', age=20, address='1', email='a@aaa.a'} 
+2021-04-05T09:03:09,328 TRACE [main]: ClientService                        - add --- method finished 
+2021-04-05T09:03:11,876 TRACE [main]: ClientService                        - get --- method entered 
+2021-04-05T09:03:11,884 TRACE [main]: ClientService                        - getAllClients: result=[Client{id='1'name='a', age=20, address='1', email='a@aaa.a'}] 
+2021-04-05T09:03:11,885 INFO  [main]: ClientService                        - Client{id='1'name='a', age=20, address='1', email='a@aaa.a'} 
+2021-04-05T09:03:25,795 TRACE [main]: DishService                          - add: dish=Dish{id='1'name='a', price=1.0, quantity=1, category='a'} 
+2021-04-05T09:03:25,799 TRACE [main]: DishService                          - add --- method finished 
+2021-04-05T09:03:25,800 INFO  [main]: DishService                          - Dish already exists! 
+2021-04-05T09:03:36,162 TRACE [main]: DishService                          - get --- method entered 
+2021-04-05T09:03:36,167 TRACE [main]: DishService                          - getAllDishes: result=[Dish{id='1'name='a', price=1.0, quantity=1, category='a'}] 
+2021-04-05T09:03:36,168 INFO  [main]: AddressService                       - Dish{id='1'name='a', price=1.0, quantity=1, category='a'} 
+2021-04-05T09:03:36,168 TRACE [main]: DishService                          - get --- method entered 
+2021-04-05T09:03:36,171 TRACE [main]: DishService                          - getAllDishes: result=[Dish{id='1'name='a', price=1.0, quantity=1, category='a'}] 
+2021-04-05T09:03:36,172 INFO  [main]: AddressService                       - Dish{id='1'name='a', price=1.0, quantity=1, category='a'} 
+2021-04-05T09:04:04,075 TRACE [main]: RestaurantService                    - add: restaurant=Restaurant{id='1', name='a', rating=5, capacity=1, delivery=true} 
+2021-04-05T09:04:04,124 TRACE [main]: RestaurantService                    - add --- method finished 
+2021-04-05T09:04:06,555 TRACE [main]: RestaurantService                    - get --- method entered 
+2021-04-05T09:04:06,560 TRACE [main]: RestaurantService                    - getAllRestaurants: result=[Restaurant{id='1', name='a', rating=5, capacity=1, delivery=true}] 
+2021-04-05T09:04:06,562 INFO  [main]: AddressService                       - Restaurant{id='1', name='a', rating=5, capacity=1, delivery=true} 
+2021-04-05T09:04:29,739 TRACE [main]: OrderService                         - add: orderOrder{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=Fri Jan 01 00:00:00 EET 2021} 
+2021-04-05T09:04:29,812 TRACE [main]: OrderService                         - add --- method finished 
+2021-04-05T09:04:35,407 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-05T09:04:35,411 TRACE [main]: OrderService                         - getAllOrders: result=[Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2021-01-01 00:00:00.0}] 
+2021-04-05T09:04:35,411 INFO  [main]: OrderService                         - Order{id=1, restaurantID=1, clientID=1, dishID=1, paymentType='cash', date=2021-01-01 00:00:00.0} 
+2021-04-05T09:04:47,179 TRACE [main]: RestaurantService                    - get --- method entered 
+2021-04-05T09:04:47,182 TRACE [main]: RestaurantService                    - getAllRestaurants: result=[Restaurant{id='1', name='a', rating=5, capacity=1, delivery=true}] 
+2021-04-05T09:04:47,183 INFO  [main]: AddressService                       - Restaurant{id='1', name='a', rating=5, capacity=1, delivery=true} 
+2021-04-05T09:04:51,616 TRACE [main]: RestaurantService                    - delete: id=1 
+2021-04-05T09:04:51,626 TRACE [main]: RestaurantService                    - delete --- method finished 
+2021-04-05T09:04:53,842 TRACE [main]: RestaurantService                    - get --- method entered 
+2021-04-05T09:04:53,845 TRACE [main]: RestaurantService                    - getAllRestaurants: result=[] 
+2021-04-05T09:05:00,426 TRACE [main]: OrderService                         - get --- method entered 
+2021-04-05T09:05:00,429 TRACE [main]: OrderService                         - getAllOrders: result=[] 
+2021-04-05T10:24:28,272 TRACE [main]: DishService                          - add: dish=Dish{id='1'name='a', price=2.0, quantity=2, category='a'} 
+2021-04-05T10:24:28,454 TRACE [main]: DishService                          - add --- method finished 
+2021-04-05T10:24:38,265 TRACE [main]: DishService                          - add: dish=Dish{id='2'name='q', price=2.0, quantity=2, category='e'} 
+2021-04-05T10:24:38,282 TRACE [main]: DishService                          - add --- method finished 
+2021-04-05T10:25:09,405 INFO  [main]: ClientService                        - Date field cannot be empty and should contain a date after 01/01/2019!
+ 
+2021-04-05T10:25:27,492 TRACE [main]: OrderService                         - add: orderOrder{id=1, restaurantID=1, clientID=1, dishID=2, paymentType='a', date=Sat Oct 10 00:00:00 EEST 2020} 
+2021-04-05T10:25:27,534 TRACE [main]: OrderService                         - add --- method finished 
+2021-04-05T10:25:41,873 TRACE [main]: DishService                          - delete: id=2 
+2021-04-05T10:25:41,909 TRACE [main]: DishService                          - delete --- method finished 
+2021-04-05T10:31:26,243 TRACE [main]: DishService                          - add: dish=Dish{id='2'name='a', price=1.0, quantity=1, category='a'} 
+2021-04-05T10:31:26,473 TRACE [main]: DishService                          - add --- method finished 
+2021-04-05T10:31:36,562 TRACE [main]: DishService                          - delete: id=2 
+2021-04-05T10:31:36,584 TRACE [main]: DishService                          - delete --- method finished 
+2021-04-05T10:32:17,410 TRACE [main]: RestaurantService                    - add: restaurant=Restaurant{id='3', name='a', rating=1, capacity=1, delivery=false} 
+2021-04-05T10:32:17,426 TRACE [main]: RestaurantService                    - add --- method finished 
+2021-04-05T10:32:42,517 TRACE [main]: OrderService                         - update: order=Order{id=1, restaurantID=3, clientID=1, dishID=2, paymentType='a', date=Sat Oct 10 00:00:00 EEST 2020} 
+2021-04-05T10:32:42,530 INFO  [main]: ClientService                        - Order with this ID doesn't exist or nonexistent restaurantID/dishID/clientID! 
+2021-04-05T10:32:54,532 TRACE [main]: OrderService                         - add: orderOrder{id=1, restaurantID=3, clientID=1, dishID=1, paymentType='a', date=Sat Oct 10 00:00:00 EEST 2020} 
+2021-04-05T10:32:54,550 TRACE [main]: OrderService                         - add --- method finished 
+2021-04-05T10:32:54,550 INFO  [main]: OrderService                         - Order already exists or inexistent restaurantID/dishID/clientID! 
+2021-04-05T10:33:17,624 TRACE [main]: OrderService                         - update: order=Order{id=1, restaurantID=3, clientID=1, dishID=1, paymentType='a', date=Sat Oct 10 00:00:00 EEST 2020} 
+2021-04-05T10:33:17,636 DEBUG [main]: OrderService                         - updateOrder: order=Order{id=1, restaurantID=3, clientID=1, dishID=1, paymentType='a', date=Sat Oct 10 00:00:00 EEST 2020} 
+2021-04-05T10:33:17,636 TRACE [main]: OrderService                         - upd --- method finished 
+2021-04-05T10:33:30,683 TRACE [main]: RestaurantService                    - delete: id=3 
+2021-04-05T10:33:30,695 TRACE [main]: RestaurantService                    - delete --- method finished 
+2021-04-05T10:39:03,553 TRACE [main]: AddressService                       - add: address=Address{id='2', city='a', street='a', number=1, zipCode=123456} 
+2021-04-05T10:39:03,817 TRACE [main]: AddressService                       - add --- method finished 
+2021-04-05T10:39:28,620 TRACE [main]: ClientService                        - add: clientClient{id='2'name='a', age=23, address='2', email='a@aaaaa'} 
+2021-04-05T10:39:28,675 TRACE [main]: ClientService                        - add --- method finished 
+2021-04-05T10:39:40,679 TRACE [main]: AddressService                       - delete: id=2 
+2021-04-05T10:39:40,718 TRACE [main]: AddressService                       - delete --- method finished 
+2021-04-05T10:40:14,786 TRACE [main]: AddressService                       - add: address=Address{id='2', city='q', street='q', number=1, zipCode=123466} 
+2021-04-05T10:40:14,810 TRACE [main]: AddressService                       - add --- method finished 
+2021-04-05T10:40:36,878 TRACE [main]: ClientService                        - update: client=Client{id='1'name='rr', age=24, address='2', email='a@aaaaa'} 
+2021-04-05T10:40:36,884 DEBUG [main]: ClientService                        - updateClient: client=Client{id='1'name='rr', age=24, address='2', email='a@aaaaa'} 
+2021-04-05T10:40:36,884 TRACE [main]: ClientService                        - upd --- method finished 
+2021-04-05T10:40:47,963 TRACE [main]: AddressService                       - delete: id=2 
+2021-04-05T10:40:47,979 TRACE [main]: AddressService                       - delete --- method finished 
+2021-04-05T11:02:12,404 TRACE [main]: AddressService                       - add: address=Address{id='1', city='a', street='a', number=1, zipCode=123456} 
+2021-04-05T11:02:12,555 TRACE [main]: AddressService                       - add --- method finished 
+2021-04-05T11:02:12,556 INFO  [main]: AddressService                       - Address already exists! 
+2021-04-05T11:02:38,491 TRACE [main]: ClientService                        - add: clientClient{id='1'name='e', age=23, address='1', email='a@aaaaa'} 
+2021-04-05T11:02:38,560 TRACE [main]: ClientService                        - add --- method finished 
+2021-04-05T11:02:57,573 TRACE [main]: DishService                          - add: dish=Dish{id='2'name='r', price=4.0, quantity=4, category='4'} 
+2021-04-05T11:02:57,591 TRACE [main]: DishService                          - add --- method finished 
+2021-04-05T11:03:19,673 TRACE [main]: OrderService                         - add: orderOrder{id=1, restaurantID=1, clientID=1, dishID=2, paymentType='a', date=Sat Oct 10 00:00:00 EEST 2020} 
+2021-04-05T11:03:19,721 TRACE [main]: OrderService                         - add --- method finished 
+2021-04-05T11:03:40,032 TRACE [main]: DishService                          - delete: id=2 
+2021-04-05T11:03:40,043 TRACE [main]: DishService                          - delete --- method finished 
+2021-04-05T11:05:39,787 TRACE [main]: RestaurantService                    - add: restaurant=Restaurant{id='2', name='a', rating=3, capacity=3, delivery=false} 
+2021-04-05T11:05:39,920 TRACE [main]: RestaurantService                    - add --- method finished 
+2021-04-05T11:05:56,845 TRACE [main]: OrderService                         - add: orderOrder{id=1, restaurantID=2, clientID=1, dishID=1, paymentType='a', date=Sat Oct 10 00:00:00 EEST 2020} 
+2021-04-05T11:05:56,909 TRACE [main]: OrderService                         - add --- method finished 
+2021-04-05T11:06:08,146 TRACE [main]: RestaurantService                    - delete: id=2 
+2021-04-05T11:06:08,161 TRACE [main]: RestaurantService                    - delete --- method finished 
