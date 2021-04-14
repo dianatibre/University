@@ -1,0 +1,36 @@
+<!--
+    10. Write a web page which contains a horizontal line in the middle of the page. 
+    The top side of the page should be colored with a red based gradient which should be fully transparent in the middle of the screen. 
+    The bottom side of the page should be colored with a blue based gradient which should be fully transparent in the middle of the screen. 
+-->
+    
+<!DOCTYPE html>
+<html>
+<head>
+<title>23.</title>
+<style>
+    div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        transition-duration: 10s;
+    }
+
+    div:hover {
+        position: absolute;
+        top: 90%;
+        left: 90%;
+        background-color: red;
+    }
+
+</style>
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>

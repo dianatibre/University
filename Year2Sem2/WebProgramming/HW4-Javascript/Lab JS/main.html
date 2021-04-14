@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Puzzle</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button class="button" onclick="setTimeout(shuffle, 1000);">Shuffle</button>   
+        <article>
+            <div class="pieces" id="piece-1" onclick="clicked('piece-1')"></div>
+            <div class="pieces" id="piece-2" onclick="clicked('piece-2')"></div>
+            <div class="pieces" id="piece-3" onclick="clicked('piece-3')"></div>
+            <div class="pieces" id="piece-4" onclick="clicked('piece-4')"></div>
+            <div class="pieces" id="piece-5" onclick="clicked('piece-5')"></div>
+            <div class="pieces" id="piece-6" onclick="clicked('piece-6')"></div>
+            <div class="pieces" id="piece-7" onclick="clicked('piece-7')"></div>
+            <div class="pieces" id="piece-8" onclick="clicked('piece-8')"></div>
+            <div class="pieces" id="piece-9" onclick="clicked('piece-9')"></div>
+          </article>
+          <p id="text"></p>
+        
+        <script src="script.js"></script>
+        <script>
+            function shuffle() {
+                var i;
+                var ids = ['piece-1', 'piece-2', 'piece-3', 'piece-4', 'piece-5', 'piece-6', 'piece-7', 'piece-8', 'piece-9']
+                var positions = [[0,0],[0,200],[0,400],[200, 0],[200,200],[200,400],[400,0],[400,200],[400,400]];
+                var currentPos;
+
+                /*for (i=0; i<9; i++) {
+                    var elem = document.getElementById(ids[i]);
+                    //elem.addEventListener("click",function() {clicked(ids[i])
+                    //});
+                    elem.onclick = function() { clicked(ids[i]);};
+                }*/
+
+                for (i = 0; i < 9; i++) {
+                    var random = Math.floor(Math.random()*(9-i));
+                    currentPos = positions[random];
+                    positions.splice(random,1);
+            
+                    var d = document.getElementById(ids[i]);
+                    d.style.position = "absolute";
+                    d.style.top = currentPos[0]+'px';
+                    d.style.left = currentPos[1]+'px';
+                }
+                document.getElementById('text').innerHTML = "";
+
+            }
+             
+        </script>
+    </body>
+</html>

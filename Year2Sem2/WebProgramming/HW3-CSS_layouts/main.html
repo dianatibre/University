@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Homepage | Diply Homepage
+        </title>
+        <style>
+            body {margin:0;
+            background-color: white;}
+
+            .navbar {
+            overflow: hidden;
+            background-color: rgb(17, 129, 221);
+            position: fixed !important;
+            top: 0;
+            width: 100%;
+            vertical-align: middle;
+            height: 5%;
+            transition: top 0.3s;
+            z-index: 999;
+}
+.navbar a{
+  display: inline;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.logo {
+    display: flex;
+    position: relative;
+    margin-left: 47%;
+    margin-right: 47%;
+    vertical-align: middle;
+}
+
+.social {
+    position: absolute;
+    right: 20%;
+    text-align: right;
+    vertical-align: middle;
+    top: 5px;
+}
+
+.social2 {
+    right: 20%;
+    text-align: right;
+    vertical-align: middle;
+    top: 5px;
+}
+
+.menu {
+    position: absolute;
+    left: 20%;
+    vertical-align: middle;
+    top: 8px;
+}
+
+#socialImg {
+    width: 22px;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.container {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.container .text{
+        position: absolute;
+        left: 20%;
+        top: 45%; /* Adjust this value to move the positioned div up and down */
+        text-align: left;
+        
+    }
+
+.bordered-div-wide {
+    border-color: rgb(209, 209, 209);
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.bordered-div {
+    border-color: rgb(209, 209, 209);
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 5px;
+    /*margin-left: 20%;
+    margin-right: 20%;*/
+    object-fit: contain;
+    display: inline-block;
+}
+
+.colored-div-light-blue {
+    background-color: rgb(17, 129, 221);
+    width: 100%;
+    color: white;
+    font-family: avenir;
+    margin-top: 5%;
+}
+.colored-div-dark-blue {
+    background-color: rgb(9, 46, 77);
+    width: 100%;
+    color: white;
+    font-family: avenir;
+    margin-top: 5%;
+}
+
+.divElem {
+    position: relative;
+    top: 50%;
+    left: 21%;
+}
+
+        </style>
+        <link rel="icon" href="icon.png"/>
+    </head>
+    <body>
+        <div class="navbar">
+            <a class="menu" href="#menu"> <img src="menulogo.png" width="30px"></a>
+            <a class="logo" href="main.html"> <img src="diply.png" width="95px"></a>
+            <section class="social" style="display: inline">
+                <a href="https://www.facebook.com/diply/" target="_blank"> <img id="socialImg" src="facebook.png"></a>
+                <a href="https://twitter.com/Diply" target="_blank"> <img id="socialImg" src="twitter.png"></a>
+                <a href="https://www.pinterest.ca/diply/" target="_blank"><img id="socialImg" src="pinterest.png"></a>
+                <a href="https://www.instagram.com/diply/" target="_blank"><img id="socialImg" src="instagram.png"></a>
+            </section>
+          </div>
+
+        <div class="container">
+            <img src="cat.jpg" style="width: 100%" alt=""/>
+            <div class="text">
+                <a href="https://diply.com/discover/animals" style="text-decoration: none; color: white;">
+                <p style="font-family: avenir; font-size: 20px; font-weight: lighter; letter-spacing: 3px; transform: scale(1,0.9);">ANIMALS</p>
+                </a>
+                <a href="https://diply.com/153670/this-cat-with-a-permanent-case-of-the-mondays-is-all-of-us-befor" style="text-decoration: none; color: white;">
+                <p style="font-family: avenir; font-size: 33px; font-weight: normal;">This Cat With A Permanent <br> Case Of The Mondays Is All Of <br> Us Before Coffee</p>
+                </a>
+                <a href="https://diply.com/author/86" style="text-decoration: none; color: white;">
+                <p style="font-family: avenir; font-size: 20px; font-weight: lighter; transform: scale(1,0.9);"><i>By </i><b>Amy Pilkington</b></p>
+                </a>
+            </div>
+        </div>
+
+        <p style="font-family: avenir; font-size: 33px; font-weight: normal; text-align: center; color: rgb(78, 78, 78); transform: scale(1,0.9);">Spring Has Sprung</p>
+
+        <div class="bordered-div-wide">
+            <img src="article1-lifestyle.png" style="margin-right: 0; float: right;  height: 100%; width: 48%; object-fit: contain; text-align: center; position: relative;">
+            <a href="https://diply.com/discover/lifestyle" style="text-decoration: none; color: rgb(172, 172, 172);">
+                <p style="font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 3px; transform: scale(1,0.9); margin-left: 5%; margin-top: 5%;">LIFESTYLE</p>
+            </a>
+            <a href="https://diply.com/153140/upcycle-an-old-umbrella-into-a-whimsical-spring-wreath" style="text-decoration: none; color: rgb(0, 0, 0);">
+                <p style="font-family: avenir; font-size: 25px; font-weight: lighter; letter-spacing: 1.5px; transform: scale(1,0.95); margin-left: 5%;">Upcycle An Old Umbrella Into A<br>Whimsical Spring Wreath</p>
+            </a>
+            <a href="https://diply.com/153140/upcycle-an-old-umbrella-into-a-whimsical-spring-wreath" style="text-decoration: none; color: rgb(172, 172, 172);">
+                <p style="font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 1px; transform: scale(1,0.9); margin-left: 5%;">It's time to pack the silver, white, and blue away, and get<br>ready to usher in some pastel colors!</p>
+            </a>
+            <br>
+            <a href="https://diply.com/author/121" style="text-decoration: none; color: rgb(172, 172, 172);">
+                <p style="font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 1.5px; transform: scale(1,0.9); margin-left: 5%; margin-bottom: 5%;"><i>By </i><b>Brittany Rae</b></p>
+            </a>
+        </div>
+
+        <div style="display: flex; margin-left: 20%; margin-top: 20px; margin-right: 20%;">
+
+        <div class="bordered-div">
+            <img src="2.png" style="margin-right: 0%;  height: 59%; width: 100%; object-fit: contain; text-align: center; position: relative; margin-top: 0%;">
+            <a href="https://diply.com/discover/lifestyle" style="text-decoration: none; color: rgb(172, 172, 172);">
+                <p style="font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 3px; transform: scale(1,0.9); margin-left: 10%; margin-top: 5%; margin-right: 10%;">LIFESTYLE</p>
+            </a>
+            <a href="https://diply.com/153140/upcycle-an-old-umbrella-into-a-whimsical-spring-wreath" style="text-decoration: none; color: rgb(0, 0, 0);">
+                <p style="font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 1.5px; transform: scale(1,0.95); margin-left: 10%; margin-right: 10%;">'Moonflower Vine' Blooms At Night To Create A Magical Garden</p>
+            </a>        
+            <a href="https://diply.com/author/121" style="text-decoration: none; color: rgb(172, 172, 172);">
+                <p style="font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 1.5px; transform: scale(1,0.9); margin-left: 10%; margin-top: 5%; margin-bottom: 10%; margin-right: 10%;"><i>By </i><b>Brittany Rae</b></p>
+            </a>
+        </div>
+        <div class="bordered-div" style="margin-left: 20px; margin-right: 20px;">
+            <img src="3.png" style="margin-right: 0%;  height: 59%; width: 100%; object-fit: contain; text-align: center; position: relative;">
+            <a href="https://diply.com/discover/lifestyle" style="text-decoration: none; color: rgb(172, 172, 172);">
+                <p style="font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 3px; transform: scale(1,0.9); margin-left: 10%; margin-top: 5%; margin-right: 10%;">LIFESTYLE</p>
+            </a>
+            <a href="https://diply.com/153140/upcycle-an-old-umbrella-into-a-whimsical-spring-wreath" style="text-decoration: none; color: rgb(0, 0, 0);">
+                <p style="font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 1.5px; transform: scale(1,0.95); margin-left: 10%; margin-right: 10%; ">'Enchanted Sky' Petunias Are The New Cosmic Flower To Add To Your Garden</p>
+            </a>        
+            <a href="https://diply.com/author/121" style="text-decoration: none; color: rgb(172, 172, 172);">
+                <p style="font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 1.5px; transform: scale(1,0.9); margin-left: 10%; margin-top: 5%; margin-bottom: 10%; margin-right: 10%;"><i>By </i><b>Kasia Mikolajczak</b></p>
+            </a>
+            <br>
+            <br>
+        </div>
+        <div class="bordered-div">
+            <img src="4.png" style="margin-right: 0%;  height: 59%; width: 100%; object-fit: contain; text-align: center; position: relative;">
+            <a href="https://diply.com/discover/lifestyle" style="text-decoration: none; color: rgb(172, 172, 172);">
+                <p style="font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 3px; transform: scale(1,0.9); margin-left: 10%; margin-top: 5%; margin-right: 10%;">LIFESTYLE</p>
+            </a>
+            <a href="https://diply.com/153140/upcycle-an-old-umbrella-into-a-whimsical-spring-wreath" style="text-decoration: none; color: rgb(0, 0, 0);">
+                <p style="font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 1.5px; transform: scale(1,0.95); margin-left: 10%; margin-right: 10%;">Make A Spring Bouquet That Pops With 'Bunny Tail' Grass</p>
+            </a>        
+            <a href="https://diply.com/author/121" style="text-decoration: none; color: rgb(172, 172, 172);">
+                <p style="font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 1.5px; transform: scale(1,0.9); margin-left: 10%; margin-top: 5%; margin-bottom: 10%; margin-right: 10%;"><i>By </i><b>Brittany Rae</b></p>
+            </a>
+        </div>
+
+        </div>
+
+        <div class="colored-div-light-blue">
+            <br>
+            <p style="text-align: center; margin-top: 3%; margin-left: 35%; margin-right: 35%; font-size: 20px; font-weight: lighter; letter-spacing: 1px; transform: scale(1,0.9);">Diply is a social news and entertainment community that creates cheeky, useful, and informative content for millennials across a growing array of channels and topics with the goal of making your day a little less bland!  </p>
+            <p style="text-align: center; margin-top: 3%; margin-left: 40%; margin-right: 40%; font-size: 15px; font-weight: lighter; letter-spacing: 1px; transform: scale(1,0.9);">STAY CONNECTED WITH DIPLY'S ORIGINAL CHANNELS</p>
+            <center>
+            <div style="display: inline-block; margin-top: 3%; align-content: center;">
+                <a href="https://www.facebook.com/diplycrafty/">
+                    <img src="DiplyCrafty_WI_500px.png" width="10%" style="margin: 20px;">
+                </a>
+                <a href="https://www.snapchat.com/discover/Good_Vibes/3485462129">
+                    <img src="DiplyGoodVibes_WI_500px.png" width="10%" style="margin: 20px;">
+                </a>
+                <a href="https://www.facebook.com/diplyfacts/">
+                    <img src="DiplyFacts!!!_WI_500px.png" width="10%" style="margin: 20px;">
+                </a>
+                <a href="https://www.facebook.com/diplytrending/">
+                    <img src="DiplyTrending_WI_500px.png" width="10%" style="margin: 20px;">
+                </a>
+                <a href="https://www.facebook.com/diplytech/">
+                    <img src="DiplyTech_WI_500px.png" width="10%" style="margin: 20px;">
+                </a>
+            </div>
+            </center>
+            <br><br>
+        </div>
+        <div class="colored-div-dark-blue" style="margin-top: 0;">
+            <br><br>
+            <a href="https://www.hello.diply.com/"> <img src="Diply_WhiteLogo_cilcel D_RGB.png" width="22px" style="vertical-align: middle; margin-left: 20%;"></a>
+            <a href="https://www.careers.diply.com/" style="text-decoration: none; color: white; font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 0px; transform: scale(1,0.9); margin-left: 10%; margin-top: 5%; margin-bottom: 10%;">Careers</a>
+            <a href="https://diply.com/static/cookiepolicy" style="text-decoration: none; color: white; font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 0px; transform: scale(1,0.9); margin-left: 3%; margin-top: 5%; margin-bottom: 10%;">Cookie Policy</a>
+            <a href="https://diply.com/static/legal" style="text-decoration: none; color: white; font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 0px; transform: scale(1,0.9); margin-left: 3%; margin-top: 5%; margin-bottom: 10%;">DMCA</a>
+            <a href="https://diply.com/static/terms" style="text-decoration: none; color: white; font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 0px; transform: scale(1,0.9); margin-left: 3%; margin-top: 5%; margin-bottom: 10%;">Terms of Use</a>
+            <a href="https://diply.com/static/privacy" style="text-decoration: none; color: white; font-family: avenir; font-size: 15px; font-weight: lighter; letter-spacing: 0px; transform: scale(1,0.9); margin-left: 3%; margin-top: 5%; margin-bottom: 10%; margin-right: 7%;">Privacy Policy</a>
+            <section class="social2" style="display: inline;">
+                <a href="https://www.facebook.com/diply/" target="_blank"> <img id="socialImg" src="facebook.png"></a>
+                <a href="https://twitter.com/Diply" target="_blank"> <img id="socialImg" src="twitter.png"></a>
+                <a href="https://www.pinterest.ca/diply/" target="_blank"><img id="socialImg" src="pinterest.png"></a>
+                <a href="https://www.instagram.com/diply/" target="_blank"><img id="socialImg" src="instagram.png"></a>
+            </section>
+            <br>
+            <br><br>
+          </div>
+        </div>
+    </body>
+</html>
